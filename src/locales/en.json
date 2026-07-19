@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Skibi Defense Wiki - Roblox Tower Defense, Units & Codes",
+      "description": "Skibi Defense Wiki provides units, codes, strategies, and gameplay guides for Roblox Skibi Defense. Learn upgrades, defenses, and survive waves of enemies.",
+      "keywords": "Skibi Defense, Roblox, tower defense, Skibidi, units, codes, strategy",
+      "ogTitle": "Skibi Defense Wiki - Roblox Tower Defense, Units & Codes",
+      "ogDescription": "Skibi Defense Wiki provides units, codes, strategies, and gameplay guides for Roblox Skibi Defense. Learn upgrades, defenses, and survive waves of enemies.",
+      "twitterTitle": "Skibi Defense Wiki - Roblox Tower Defense, Units & Codes",
+      "twitterDescription": "Skibi Defense Wiki provides units, codes, strategies, and gameplay guides for Roblox Skibi Defense. Learn upgrades, defenses, and survive waves of enemies."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Tower Defense Strategy",
+    "title": "Skibi Defense Wiki",
+    "description": "Skibi Defense is a Roblox tower defense game where players deploy units, upgrade defenses, and fight waves of Skibidi-style enemies. Build strategy, unlock stronger units, and survive escalating battles across maps with unique abilities and boss waves.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "5M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "40+",
+        "label": "Units Available"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "6+",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Weekly",
+        "label": "Daily Updates"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Master Skibi Defense?",
+    "description": "Dive into Skibi Defense on Roblox — deploy units, upgrade defenses, and survive endless waves of Skibidi-style enemies!",
+    "joinCommunity": "Join Roblox Community",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Skibi Defense Wiki",
+    "description": "Your complete resource hub for Skibi Defense units, upgrades, codes, waves, enemies, maps, and tower defense strategy guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "Roblox Community",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamCommunity": "Reddit",
+    "steamStore": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Skibi Defense Wiki. Not affiliated with the developers of Skibi Defense or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
