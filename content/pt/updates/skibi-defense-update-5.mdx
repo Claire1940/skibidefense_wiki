@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Skibi Defense Atualização 5: Novas Unidades e Estratégias de Mapa",
+  description: "Explore a atualização 5 de Skibi Defense com nossa análise de novas unidades, mudanças de balanceamento, estratégias de mapa e códigos exclusivos para resgate.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0a5cbf/fff?text=Skibi+Defense+Update+5",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de skibi defense"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Lançamento da Atualização 5**: A mais recente **atualização 5 de skibi defense** traz ajustes massivos de balanceamento e novas unidades de alto nível.
+- **Mudança no Meta**: Titan TV Man e Titan Cameraman consolidam suas posições como os causadores de dano mais fortes do final de jogo.
+- **Novas Táticas de Mapa**: Mapas de endgame exigem uma mistura de DPS de alvo único e unidades de controle de grupo para sobreviver a ondas rápidas de chefes.
+- **Recompensas Gratuitas**: Resgate códigos ativos como 5MVISITS para obter moedas grátis e acelerar as melhorias de suas unidades.
+</Callout>
+
+<Section icon={Sparkles} title="Visão Geral da Atualização 5 de Skibi Defense">
+
+O lançamento da **atualização 5 de skibi defense** introduz uma variedade de recursos que mudam o jogo, projetados para elevar sua experiência de tower defense. Este grande patch foca intensamente no balanceamento das listas de unidades existentes, introduzindo defensores lendários poderosos e retrabalhando as mecânicas dos mapas para desafiar jogadores veteranos. Seja você um iniciante tentando limpar seu primeiro mapa ou um jogador avançado visando a onda 50, entender essas mudanças é essencial.
+
+Nesta atualização, os desenvolvedores abordaram o feedback da comunidade otimizando o desempenho e reduzindo o lag de posicionamento de unidades. Isso garante batalhas mais suaves durante ondas intensas de chefes, onde centenas de inimigos povoam a tela. Além disso, o sistema econômico recebeu pequenos ajustes, permitindo que os jogadores farmem moedas com mais eficiência ao executar as configurações corretas.
+
+| Recurso | Descrição | Impacto |
+| :--- | :--- | :--- |
+| Novas Unidades | Adicionados Titan TV Man e Titan Cameraman | Alto DPS de fim de jogo |
+| Ajustes de Mapa | Caminhos de inimigos retrabalhados nos mapas Avançado e Endgame | Dificuldade aumentada |
+| Mudanças de Balanceamento | Torres de Área de Efeito (AoE) buffadas | Melhor controle de grupo |
+| Correções de Bugs | Corrigido lag de posicionamento de unidades e bugs de UI | Desempenho mais suave |
+
+<Callout type="success" title="Destaque da Grande Atualização">
+A introdução de melhorias avançadas de titãs mudou completamente a estratégia de fim de jogo, tornando as configurações baseadas em sinergia mais vitais do que nunca.
+</Callout>
+
+Essas mudanças significam que estratégias antigas e não otimizadas podem não funcionar mais em níveis de dificuldade mais altos. Os jogadores devem se adaptar ao novo escalonamento de ondas e utilizar as adições de unidades mais recentes para garantir a vitória.
+
+</Section>
+
+<Section icon={Swords} title="Novas Unidades e Ajustes na Tier List">
+
+O destaque da **atualização 5 de skibi defense** é, sem dúvida, a introdução de novas unidades lendárias que redefinem o meta. Titan TV Man e Titan Cameraman foram adicionados ao topo da tier list, oferecendo um potencial de dano e utilidade inigualáveis. Enquanto isso, unidades de nível médio como Large TV Man e Large Cameraman receberam ajustes de balanceamento para torná-las mais viáveis durante as ondas de transição.
+
+Para ajudá-lo a gerenciar seus recursos, compilamos as estatísticas principais e as funções das unidades fundamentais nesta atualização. Investir suas moedas nas unidades certas durante o estágio inicial de uma partida evitará que suas defesas sejam sobrecarregadas.
+
+| Nome da Unidade | Raridade | Função | Habilidade Primária | Custo Máximo de Melhoria |
+| :--- | :--- | :--- | :--- | :--- |
+| Titan TV Man | Lendário | Especialista de Fim de Jogo | Habilidades de alto dano | 15.000 Moedas |
+| Titan Cameraman | Lendário | Dano de Fim de Jogo | Ataques pesados poderosos | 12.500 Moedas |
+| Large TV Man | Rara | Dano em Área | Controle de grupo de inimigos | 6.000 Moedas |
+| Large Cameraman | Rara | Dano Pesado | Alto DPS de alvo único | 5.500 Moedas |
+| Cameraman | Comum | Dano Básico | Ataques de alvo único | 1.200 Moedas |
+
+<CardGrid cols={3}>
+  <Card title="Titan TV Man">
+    - **Dano S-Tier**: Capacidades de área de efeito inigualáveis.
+    - **Alto Custo**: Exige configurações focadas em economia forte.
+    - **Função de Especialista**: Melhor usado para limpar ondas densas de inimigos.
+  </Card>
+  <Card title="Large TV Man">
+    - **Controle A-Tier**: Causa lentidão e dano a inimigos agrupados.
+    - **Âncora de Meio de Jogo**: Altamente econômico para limpeza de ondas.
+    - **Foco em Sinergia**: Combina bem com unidades de alto dano em alvo único.
+  </Card>
+  <Card title="Cameraman">
+    - **Iniciante B-Tier**: Custo de implantação extremamente baixo.
+    - **Defesa Inicial**: Perfeito para lidar com as ondas rápidas iniciais.
+    - **Melhorias Fáceis**: Caminho simples para maximizar o DPS no início do jogo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Sinergia de Unidades">
+Combinar o Titan TV Man com o Large TV Man permite que você bloqueie grupos inteiros de inimigos enquanto causa dano massivo simultaneamente.
+</Callout>
+
+Embora as unidades lendárias sejam incrivelmente poderosas, elas também são muito caras para implantar e melhorar. Os iniciantes devem se concentrar em garantir unidades Raras confiáveis antes de tentar economizar para os Titãs caros durante as partidas ao vivo.
+
+</Section>
+
+<Section icon={Map} title="Guias de Mapa e Estratégias de Ondas">
+
+Navegar pelos mapas recém-atualizados na **atualização 5 de skibi defense** exige uma compreensão profunda do caminho dos inimigos e das composições das ondas. Cada mapa apresenta desafios ambientais únicos, comprimentos de caminho variados e pontos de afunilamento específicos onde você deve concentrar suas forças defensivas.
+
+A atualização ajustou o escalonamento das ondas, o que significa que os inimigos ganham vida e velocidade muito mais rápido do que nas versões anteriores. Unidades blindadas e ondas de chefes velozes testarão os limites do seu posicionamento. Abaixo está uma visão geral das dificuldades dos mapas e a abordagem tática recomendada para cada layout.
+
+| Nome do Mapa | Dificuldade | Padrão de Inimigos | Estratégia Recomendada |
+| :--- | :--- | :--- | :--- |
+| Mapa Iniciante | Fácil | Ondas rápidas de baixo HP | Defesa inicial focada em economia com torres de baixo custo |
+| Mapa de Meio de Jogo | Normal | Inimigos terrestres e à distância mistos | Posicionamento equilibrado de torres com suporte AoE |
+| Mapa Avançado | Difícil | Inimigos de alto HP com unidades blindadas | Torres de alto DPS de alvo único e efeitos de atordoamento |
+| Mapa Endgame | Insano | Ondas rápidas de chefes e inimigos de elite | Loadout totalmente otimizado com combinações de torres baseadas em sinergia |
+
+Para limpar consistentemente o conteúdo mais difícil, os jogadores devem seguir um plano de implantação estruturado. Espalhar seus recursos demais pelo mapa é um erro comum que leva a derrotas precoces.
+
+<Steps>
+  <Step num="1" title="Estabelecer Economia Inicial">
+    Implante unidades de baixo custo como o Cameraman básico em pontos de afunilamento chave para lidar com as ondas iniciais e rápidas. Evite melhorar demais as unidades iniciais para economizar recursos.
+  </Step>
+  <Step num="2" title="Transição para AoE de Meio de Jogo">
+    Coloque o Large TV Man ou o Large Cameraman perto de curvas para maximizar seu dano de área de efeito. Isso garante que grupos maiores de inimigos sejam eliminados antes de chegarem à saída.
+  </Step>
+  <Step num="3" title="Implantar Titãs de Fim de Jogo">
+    Conforme as ondas progridem, economize moedas para implantar o Titan Cameraman ou o Titan TV Man. Posicione-os onde possam cobrir múltiplos caminhos ou longas linhas retas.
+  </Step>
+  <Step num="4" title="Maximizar Melhorias de Titãs">
+    Foque seus recursos em melhorar totalmente suas unidades Titãs. Um único Titã de nível máximo é muito mais eficaz do que várias unidades de nível baixo durante ondas intensas de chefes.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Posicionamento em Pontos de Afunilamento">
+Nunca aglomere suas unidades logo no início do caminho. Em vez disso, foque suas defesas em torno de voltas e interseções para maximizar o tempo que os inimigos permanecem no alcance.
+</Callout>
+
+Ao concentrar seus causadores de dano em torno de curvas, você garante que o dano de dispersão atinja o número máximo de alvos. Fique sempre de olho no contador de ondas para se preparar para as próximas lutas contra chefes.
+
+</Section>
+
+<Section icon={Trophy} title="Códigos Ativos e Dicas de Progressão">
+
+A progressão em Skibi Defense pode ser significativamente acelerada aproveitando as recompensas gratuitas dos desenvolvedores. Com o lançamento da **atualização 5 de skibi defense**, novos códigos promocionais foram disponibilizados para ajudar os jogadores a desbloquear unidades e comprar melhorias cruciais.
+
+Resgatar esses códigos concede acesso imediato a moedas e boosts temporários. É altamente recomendável usar esses recursos para construir uma base sólida de unidades Raras e Lendárias antes de enfrentar os mapas Avançado e Endgame.
+
+| Código | Recompensa | Status | Data de Expiração |
+| :--- | :--- | :--- | :--- |
+| 5MVISITS | Recompensas gratuitas no jogo | Ativo | Agosto de 2026 |
+| 1MVISITS | Moedas e recompensas gratuitas | Ativo | Agosto de 2026 |
+| THANKYOU | Recompensas de bônus especiais | Expirado | Julho de 2026 |
+
+<Checklist
+  id="update-5-progression"
+  title="Objetivos de Progressão da Atualização 5:"
+  items={[
+    "Resgatar todos os códigos ativos para moedas e boosts gratuitos",
+    "Desbloquear e melhorar o Titan Cameraman ao nível máximo",
+    "Limpar solo com sucesso o Mapa de Meio de Jogo na dificuldade Normal",
+    "Alcançar a onda 50 no Mapa Endgame usando configurações focadas em sinergia"
+  ]}
+/>
+
+<Callout type="success" title="Ativação de Boost">
+Sempre ative seus boosts de recompensa logo antes de começar uma corrida longa nos mapas Avançado ou Endgame para maximizar seus ganhos de moedas.
+</Callout>
+
+Completar consistentemente as missões diárias junto com a limpeza dos mapas é a maneira mais rápida de acumular riqueza. Evite gastar suas moedas suadas em unidades comuns duplicadas depois de estabelecer uma escalação inicial confiável.
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+Para ajudá-lo a aproveitar ao máximo esta atualização, compilamos respostas para as perguntas mais comuns compartilhadas pela comunidade.
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor unidade para usar na atualização 5 de skibi defense?",
+    answer: "O Titan TV Man é amplamente considerado a melhor unidade geral nesta atualização devido ao seu dano de área de efeito excepcional e fortes habilidades de controle de grupo."
+  },
+  {
+    question: "Como resgato códigos ativos no jogo?",
+    answer: "Abra o jogo no Roblox, localize o menu de Códigos na lateral da tela, insira um código ativo como 5MVISITS e clique em resgatar para reivindicar suas recompensas."
+  },
+  {
+    question: "Posso vencer o Mapa Endgame sem unidades lendárias?",
+    answer: "Embora seja possível com unidades raras altamente otimizadas e tempo preciso de melhoria, ter pelo menos uma unidade lendária como o Titan Cameraman torna a limpeza do Mapa Endgame significativamente mais fácil."
+  },
+  {
+    question: "Existem novos mapas introduzidos nesta atualização?",
+    answer: "Sim, a Atualização 5 apresenta retrabalhos nos caminhos dos mapas e ajustes de dificuldade nos mapas Avançado e Endgame, introduzindo um escalonamento de ondas mais difícil e ondas de chefes mais rápidas."
+  }
+]} />
+
+<Callout type="info" title="Suporte da Comunidade">
+Junte-se à comunidade oficial do Roblox ou ao Discord da comunidade para encontrar outros jogadores para formar equipes em corridas multijogador desafiadoras.
+</Callout>
+
+</Section>

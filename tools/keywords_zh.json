@@ -1,46 +1,73 @@
 {
   "categories": [
     {
+      "category": "兑换码",
+      "keywords": [
+        "skibi defense 兑换码"
+      ]
+    },
+    {
       "category": "指南",
       "keywords": [
-        "lucid blocks 指南"
+        "skibi defense 新手指南",
+        "skibi defense 进阶指南",
+        "skibi defense 第9章攻略",
+        "skibi defense 第8章攻略",
+        "skibi defense 第7章攻略",
+        "skibi defense 第6章攻略",
+        "skibi defense 多元宇宙第3章攻略",
+        "skibi defense 多元宇宙第2章攻略",
+        "skibi defense 无尽模式指南",
+        "skibi defense 噩梦难度指南",
+        "skibi defense 黑暗通关攻略",
+        "skibi defense 刷金币技巧",
+        "skibi defense 任务指南",
+        "skibi defense 合成指南",
+        "skibi defense 特质指南"
       ]
     },
     {
-      "category": "合成",
+      "category": "排行榜",
       "keywords": [
-        "lucid blocks 合成配方",
-        "lucid blocks 神化系统"
+        "skibi defense 排行榜",
+        "skibi defense 炮塔排行榜",
+        "skibi defense 泰坦排行榜",
+        "skibi defense 最强单位",
+        "skibi defense 最佳开局单位",
+        "skibi defense 版本强势单位"
       ]
     },
     {
-      "category": "物品",
+      "category": "单位",
       "keywords": [
-        "lucid blocks 信仰法杖",
-        "lucid blocks 蜜蜂滑翔器",
-        "lucid blocks 箱子",
-        "lucid blocks 锇"
+        "skibi defense 单位大全",
+        "skibi defense 全部单位",
+        "skibi defense 炮塔",
+        "skibi defense 终极单位",
+        "skibi defense 隐藏单位",
+        "skibi defense 手之大师",
+        "skibi defense 厄运守望者",
+        "skibi defense jeffrey",
+        "skibi defense 管理员",
+        "skibi defense o5 电视"
       ]
     },
     {
-      "category": "生物群系",
+      "category": "更新",
       "keywords": [
-        "lucid blocks 提亚玛纳地脉"
+        "skibi defense 更新",
+        "skibi defense 更新5",
+        "skibi defense 更新日志",
+        "skibi defense 最新更新",
+        "skibi defense 泄露情报",
+        "skibi defense 舰队更新",
+        "skibi defense 虚空更新"
       ]
     },
     {
-      "category": "建造",
+      "category": "价值",
       "keywords": [
-        "lucid blocks 感质空间"
-      ]
-    },
-    {
-      "category": "技术支持",
-      "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks 全屏",
-        "lucid blocks 多人模式",
-        "lucid blocks 安卓版"
+        "skibi defense 价值表"
       ]
     }
   ]

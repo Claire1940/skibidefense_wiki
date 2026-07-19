@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Coins } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Traits do Skibi Defense: Rankings do Meta de 2026 e Efeitos de Buffs",
+  description: "Domine o sistema de traits do Skibi Defense com nosso guia completo. Aprenda sobre raridades de traits, estratégias de reroll e os melhores buffs para unidades Titan em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Skibi+Defense+Traits+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki do Skibi Defense",
+  keywords: "skibi defense traits, guia de traits, meta 2026, buffs, titans, reroll"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **As traits do Skibi Defense** são modificadores passivos que melhoram significativamente os atributos das unidades, como dano, alcance e velocidade de ataque.
+- **Godly e Reaper** continuam sendo as traits de nível mais alto para unidades de DPS como Titan TV Man e Titan Cameraman no meta de 2026.
+- **Traits de economia**, como Wealthy, são essenciais para unidades de início de jogo para acelerar o farm de moedas e os upgrades no meio das ondas.
+- **A estratégia de reroll** deve priorizar suas unidades Lendárias primeiro, pois as traits escalam com base nos atributos básicos da torre.
+- **A sinergia importa** mais do que o poder individual da trait; certifique-se de que suas unidades de suporte tenham buffs de alcance ou de redução de recarga.
+</Callout>
+
+<Section icon={Sparkles} title="Entendendo o Sistema de Traits no Skibi Defense">
+
+No ambiente de alto risco do Skibi Defense, simplesmente posicionar uma unidade de alta raridade não é suficiente para sobreviver aos mapas de dificuldade Insana ou às ondas infinitas. As traits agem como o fator X definitivo, fornecendo bônus percentuais ou de taxa fixa para suas torres. Esses modificadores são atribuídos aleatoriamente quando uma unidade é invocada ou podem ser alterados através da mecânica de reroll encontrada no lobby principal. Entender como essas traits interagem com as funções das unidades — como dano em área (AOE), Alvo Único ou Suporte — é a diferença entre uma derrota na onda 30 e uma vitória na onda 100.
+
+| Categoria da Trait | Bônus Primário | Nível de Impacto | Melhor Tipo de Unidade |
+| :--- | :--- | :--- | :--- |
+| **Ofensiva** | Dano, Chance de Crítico | Alto | DPS Principal (Titans) |
+| **Velocidade** | Recarga de Ataque | Médio | Unidades de Atordoamento/Lentidão |
+| **Utilidade** | Alcance, Custo de Posicionamento | Alto | Suporte/Controle de Área |
+| **Econômica** | Renda por Onda, Valor de Venda | Essencial | Unidades Iniciais |
+
+<Callout type="tip" title="Dica de Profissional">
+Sempre verifique a "Compatibilidade de Traits" antes de gastar seus raros tokens de reroll. Algumas unidades com alta recarga base se beneficiam mais de "Swift" do que de um buff de "Dano" fixo, pois isso permite que elas ativem efeitos de status, como atordoamentos, com mais frequência.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tier List de Traits de 2026 e Divisão de Raridades">
+
+As traits no Skibi Defense são divididas em vários níveis de raridade, variando de Comum a Mítica. Enquanto as traits Comuns oferecem melhorias insignificantes de 5 a 10%, as traits Míticas podem transformar completamente o desempenho de uma unidade, às vezes dobrando seu DPS efetivo. Abaixo está o ranking atual das traits com base nas atualizações de balanceamento de 2026.
+
+### Traits Ofensivas de Nível Superior
+Essas traits são projetadas para seus batedores pesados. Se você conseguir um Titan TV Man ou Titan Cameraman, estes são os modificadores que você deve buscar.
+
+| Nome da Trait | Raridade | Descrição do Efeito | Classificação no Meta |
+| :--- | :--- | :--- | :--- |
+| **Godly** | Mítica | +50% de Dano, +15% de Alcance, +10% de Vel. | ★★★★★ |
+| **Reaper** | Lendária | +35% de Dano, +20% de Vel. de Ataque | ★★★★☆ |
+| **Sniper** | Épica | +40% de Alcance, +10% de Dano | ★★★★☆ |
+| **Warrior** | Rara | +20% de Dano | ★★★☆☆ |
+
+### Traits de Utilidade e Suporte
+Nem toda unidade precisa causar dano. Unidades de suporte como o Large TV Man se beneficiam significativamente de traits que permitem cobrir mais terreno ou usar suas habilidades mais rapidamente.
+
+| Nome da Trait | Raridade | Descrição do Efeito | Melhor Para |
+| :--- | :--- | :--- | :--- |
+| **Sonic** | Lendária | -25% de Recarga de Ataque | Unidades de Atordoamento |
+| **Eagle Eye** | Épica | +50% de Alcance | Torres de Suporte |
+| **Wealthy** | Rara | +15% de Renda por Onda | Unidades de Farm |
+| **Swift** | Comum | +10% de Vel. de Ataque | Unidades Iniciais |
+
+<Callout type="warning" title="Importante">
+Não ignore as traits de redução de "Custo de Posicionamento" para unidades caras como o Titan TV Man. Reduzir um custo de posicionamento de 5.000 moedas em 20% pode permitir que você posicione sua defesa várias ondas antes, evitando vazamentos no início.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhores Traits para Unidades do Meta">
+
+Escolher a trait certa depende muito da função básica da unidade. No Skibi Defense, o meta atual favorece alto dano e controle de área. Veja como você deve combinar suas traits com as unidades mais populares do jogo.
+
+<CardGrid cols={3}>
+  <Card title="Titan TV Man">
+    - **Melhor Trait**: Godly ou Reaper
+    - **Foco**: Maximizar dano massivo em área (AOE)
+    - **Estratégia**: Usar buffs de Alcance para cobrir várias rotas
+  </Card>
+  <Card title="Titan Cameraman">
+    - **Melhor Trait**: Godly ou Sniper
+    - **Foco**: Alto DPS de alvo único para Chefes
+    - **Estratégia**: Priorizar Dano e Alcance para eliminar inimigos voadores
+  </Card>
+  <Card title="Large TV Man">
+    - **Melhor Trait**: Sonic ou Eagle Eye
+    - **Foco**: Controle de grupo e atordoamento
+    - **Estratégia**: Focar em velocidade de ataque para manter os inimigos permanentemente lentos
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estratégia Avançada">
+Para o "Modo Infinito", tente ter pelo menos duas unidades com a trait **Wealthy** no seu deck de início de jogo. Isso garante que sua economia cresça rápido o suficiente para pagar os upgrades de nível 5 e 6 para seus Titans antes que o HP dos banheiros saia do controle.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Como Fazer Reroll de Traits: Um Guia Passo a Passo">
+
+O reroll é a principal maneira de otimizar sua equipe. Ele requer Tokens de Reroll, que podem ser obtidos através de missões diárias, códigos ou na loja do jogo. Siga estes passos para garantir que você não desperdice seus recursos nas unidades erradas.
+
+<Steps>
+  <Step num="1" title="Acesse o Laboratório de Traits">
+    Navegue até o lobby principal e localize o NPC do Laboratório de Traits. Certifique-se de ter a unidade que deseja modificar equipada no seu deck atual.
+  </Step>
+  <Step num="2" title="Selecione Sua Unidade">
+    Escolha a unidade do seu inventário. A interface exibirá a trait atual e as possíveis mudanças de atributos se você conseguir um modificador de maior raridade.
+  </Step>
+  <Step num="3" title="Verifique o Saldo de Tokens">
+    Verifique se você tem Tokens de Reroll suficientes. Unidades Lendárias e Míticas geralmente exigem mais tokens por reroll ou "Super Rerolls" especializados para garantir melhores resultados.
+  </Step>
+  <Step num="4" title="Confirme o Reroll">
+    Clique no botão de reroll. Observe que você não pode "bloquear" traits no laboratório padrão; assim que você rolar, a trait antiga é substituída imediatamente, a menos que use um item de "Bloqueio de Trait".
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota">
+A probabilidade de conseguir uma trait Mítica como **Godly** é de aproximadamente 0,1% a 0,5%. Recomenda-se guardar seus tokens apenas para unidades Lendárias, pois unidades Comuns ou Raras são facilmente substituídas conforme você avança.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Sinergia de Traits e Estratégias de Mapa">
+
+Diferentes mapas no Skibi Defense exigem diferentes configurações de traits. Em mapas com caminhos curtos e sinuosos, o Alcance é menos crítico do que o Dano bruto. No entanto, em mapas longos e retos como o "Mapa Avançado", as traits de Alcance tornam-se o recurso mais valioso do seu arsenal.
+
+### Recomendações de Traits Específicas para Mapas
+
+| Tipo de Mapa | Principal Ameaça Inimiga | Prioridade Recomendada de Traits |
+| :--- | :--- | :--- |
+| **Mapa de Iniciante** | Ondas Rápidas e com Pouco HP | Velocidade > Dano |
+| **Mapa de Meio de Jogo** | Inimigos de Ataque à Distância Mistos | Alcance > Velocidade |
+| **Mapa Avançado** | Unidades Blindadas/Com Muito HP | Dano > Alcance |
+| **Mapa de Fim de Jogo** | Ondas de Chefes Elite | Apenas Godly/Mítica |
+
+<Checklist
+  id="trait-optimization-checklist"
+  title="Checklist de Otimização de Traits:"
+  items={[
+    "Garanta que todas as unidades de DPS tenham pelo menos uma trait 'Warrior' Rara",
+    "Equipe seu farmador principal com uma trait 'Wealthy' ou 'Discount'",
+    "Verifique se suas unidades de Atordoamento têm 'Sonic' ou 'Swift' para usar habilidades mais rápido",
+    "Verifique se seus Titans têm Alcance suficiente para cobrir interseções de rotas",
+    "Guarde pelo menos 10 Tokens de Reroll para novos lançamentos de unidades"
+  ]}
+/>
+
+<Callout type="tip" title="Dica de Economia">
+Se você for um jogador free-to-play, priorize a trait **Discount**. Ela reduz o custo de upgrade das unidades no jogo, o que geralmente é mais valioso do que um pequeno aumento de dano quando você está lutando para alcançar o nível máximo em suas torres.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ de Traits do Skibi Defense">
+
+<FAQ items={[
+  {
+    question: "Posso ter várias traits em uma única unidade?",
+    answer: "Não, cada unidade no Skibi Defense só pode ter uma trait de cada vez. O reroll substituirá sua trait atual, então escolha com cuidado antes de clicar para rolar."
+  },
+  {
+    question: "As traits são mantidas quando eu faço o upgrade de uma unidade no jogo?",
+    answer: "Sim! As traits são modificadores permanentes para aquela instância de unidade específica. Quando você faz o upgrade de uma unidade do Nível 1 para o Nível 2 durante uma partida, os bônus percentuais da trait se aplicam aos novos atributos básicos mais altos."
+  },
+  {
+    question: "Qual é a trait mais rara no Skibi Defense?",
+    answer: "A trait 'Godly' é atualmente a mais rara e poderosa no meta de 2026. Ela fornece um enorme bônus triplo de atributos para Dano, Alcance e Velocidade de Ataque."
+  },
+  {
+    question: "É melhor ter Dano ou Velocidade de Ataque?",
+    answer: "Depende da unidade. Para unidades de alto dano e disparo lento, como o Titan TV Man, o Dano geralmente é melhor. Para unidades que aplicam efeitos negativos (como atordoamentos ou lentidão), a Velocidade de Ataque é superior para garantir que o efeito permaneça ativo no inimigo."
+  }
+]} />
+
+</Section>

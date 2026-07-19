@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Coins, TrendingUp } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Estratégia do Capítulo 3 do Multiverso de Skibi Defense: Unidades Meta e Táticas",
+  description: "Domine o Capítulo 3 do Multiverso de Skibi Defense com nosso guia de estratégia. Aprenda os melhores posicionamentos de unidades, loadouts e gerenciamento de ondas para a jogabilidade de 2026.",
+  category: "Estratégia",
+  image: "https://placehold.co/800x400/1e293b/fb923c?text=Multiverse+Chapter+3+Strategy",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Skibi Defense"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **estratégia do capítulo 3 do multiverso de skibi defense** foca em **unidades Titãs** de alto DPS e escalonamento eficiente da economia para sobreviver às ondas de elite.
+- **Titan TV Man** e **Titan Cameraman** são obrigatórios para contra-atacar chefes no final do jogo devido ao seu enorme dano de alvo único.
+- O **posicionamento inicial** deve priorizar unidades de dano em área (AoE) de baixo custo, como o **Large TV Man**, para evitar vazamentos durante as aceleradas ondas iniciais.
+- O **gerenciamento da economia** é o fator decisivo; os jogadores devem buscar o máximo de melhorias nas unidades de farm antes da onda 25.
+- Os **pontos de estrangulamento** no mapa do Multiverso exigem o agrupamento preciso de unidades para maximizar a eficácia das habilidades de atordoamento e lentidão.
+</Callout>
+
+<Section icon={Map} title="Capítulo 3 do Multiverso: Visão Geral do Mapa e Padrões de Inimigos">
+
+Navegar pela **estratégia do capítulo 3 do multiverso de skibi defense** exige uma compreensão profunda dos perigos ambientais únicos e do escalonamento de inimigos introduzidos nesta expansão. Ao contrário dos capítulos anteriores, o Capítulo 3 apresenta pontos de convergência de várias rotas que podem sobrecarregar a defesa se as unidades estiverem muito dispersas. Os inimigos aqui, principalmente variantes Skibidi com alto HP, possuem maior resistência a efeitos básicos de atordoamento, tornando o dano bruto e os debuffs especializados mais críticos do que nunca.
+
+O layout do mapa do Capítulo 3 foi projetado com três rotas principais que se fundem em um único corredor final. Esse "gargalo" é onde suas unidades mais poderosas devem ser posicionadas. No entanto, ignorar as divisões iniciais das rotas levará a uma perda prematura de vida. Jogadores de sucesso focam em uma "defesa zonal", onde as torres do início do jogo cobrem as rotas individuais, enquanto as potências do meio ao final do jogo se concentram na zona de convergência.
+
+| Tipo de Inimigo | Escalonamento de HP | Velocidade de Movimento | Habilidade Especial | Estratégia de Contra-ataque |
+| :--- | :--- | :--- | :--- | :--- |
+| **Elite Glitch Toilet** | Muito Alto | Rápido | Resistência a Atordoamento | Use o **Titan TV Man** para DPS bruto |
+| **Armored Vacuum** | Alto | Lento | Redução de Dano | **Laser Units** ignoram armadura |
+| **Flying Buzzsaw** | Médio | Muito Rápido | Voo (Ignora o Solo) | Mira aérea do **Titan Cameraman** |
+| **Multiverse Boss** | Extremo | Variável | Desativação em Área (AoE) | Agrupar unidades de **Escudo** e **Atordoamento** |
+
+<Callout type="warning" title="Alerta Crítico de Inimigo">
+O **Elite Glitch Toilet** no Capítulo 3 se move significativamente mais rápido do que as unidades padrão. Se sua defesa de linha de frente não tiver altas taxas de disparo, esses inimigos passarão pelas suas torres antes que elas possam completar seus tempos de recarga. Sempre garanta que pelo menos uma unidade de alta velocidade seja colocada no início de cada rota.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Loadouts de Unidades Meta para o Sucesso no Capítulo 3">
+
+Para executar uma **estratégia do capítulo 3 do multiverso de skibi defense** vencedora, seu loadout deve equilibrar o crescimento econômico com a estabilidade defensiva. O meta atual favorece uma abordagem focada em "Titãs", mas chegar a essas unidades caras exige um início de jogo disciplinado. Você não pode depender de Cameramen básicos por muito tempo; a vida dos inimigos no Capítulo 3 escala exponencialmente após a onda 15.
+
+As seguintes unidades estão atualmente classificadas como Tier S para este capítulo específico. A sinergia delas permite um ciclo de "bloqueio por atordoamento" (stun-lock) que pode manter até os chefes mais rápidos dentro da sua zona de eliminação.
+
+<CardGrid cols={3}>
+  <Card title="Titan TV Man">
+    - **Função**: Assassino Principal de Chefes
+    - **Força**: Maior DPS de alvo único no jogo
+    - **Uso**: Posicione no ponto de convergência final para cobertura máxima.
+  </Card>
+  <Card title="Titan Cameraman">
+    - **Função**: Atacante Versátil
+    - **Força**: Pode atingir unidades terrestres e aéreas com alta precisão.
+    - **Uso**: Essencial para lidar com as ondas de Flying Buzzsaw.
+  </Card>
+  <Card title="Large TV Man">
+    - **Função**: Controle de Grupo
+    - **Força**: Alto dano em área (AoE) para limpar hordas de inimigos menores.
+    - **Uso**: Melhor posicionado nas interseções das rotas.
+  </Card>
+</CardGrid>
+
+| Nome da Unidade | Raridade | Custo Inicial | Valor Máximo de Melhoria | Função Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Cameraman** | Comum | Baixo | Baixo | Isca para ondas iniciais |
+| **Large Cameraman** | Raro | Médio | Moderado | Estabilidade no meio do jogo |
+| **Titan TV Man** | Lendário | Alto | Extremo | Derreter chefes no final do jogo |
+| **Titan Cameraman** | Lendário | Alto | Alto | Antiaéreo e DPS Pesado |
+| **Laser Unit** | Raro | Médio | Alto | Penetração de armadura |
+
+<Callout type="tip" title="Bônus de Sinergia">
+Combinar a lentidão em área do **Large TV Man** com o feixe de alto dano do **Titan TV Man** cria uma "caixa de eliminação". O efeito de lentidão garante que o feixe do Titã permaneça focado no alvo durante toda a duração do seu ciclo de ataque, dobrando efetivamente sua produção de DPS contra alvos de alto HP.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Progressão de Ondas Passo a Passo">
+
+Limpar com sucesso todas as 50 ondas no Capítulo 3 exige uma adesão estrita a um cronograma de posicionamento. Desviar-se deste cronograma frequentemente leva a um colapso econômico onde você não conseguirá pagar pelos Titãs necessários antes da primeira onda de chefe. Siga estes passos para os quais otimizar a alocação de recursos ao longo da partida.
+
+<Steps>
+  <Step num="1" title="Economia Inicial e Configuração de Rotas">
+    Durante as ondas 1 a 10, posicione suas unidades iniciais de **Cameraman** bem na frente das rotas. Não invista demais em suas melhorias. Em vez disso, use seus fundos restantes para implantar unidades geradoras de economia. Seu objetivo é ter pelo menos três unidades de farm de nível 2 até a onda 12.
+  </Step>
+  <Step num="2" title="Estabilização de Dano em Área (AoE)">
+    Entre as ondas 11 e 25, o jogo introduz ondas de "Horda" (Swarm). É aqui que o **Large TV Man** se torna vital. Coloque um em cada junção de rota. Melhore-os para o nível 3 imediatamente para desbloquear o raio de explosão mais amplo. Isso evita o "vazamento" de banheiros pequenos e rápidos.
+  </Step>
+  <Step num="3" title="Implantação de Titãs">
+    Até a onda 30, você deve ter seu primeiro **Titan TV Man** em campo. Posicione-o na reta final antes da base. Esta unidade lidará com quaisquer elites que tenham sobrevivido às junções de AoE. Foque todos os fundos subsequentes em maximizar este Titã antes do chefe da onda 40.
+  </Step>
+  <Step num="4" title="Grade de Defesa Final">
+    As ondas 41 a 50 são puramente testes de DPS. Preencha os espaços restantes com **Titan Cameramen** para fornecer cobertura aérea. Use qualquer dinheiro restante para vender os **Cameramen** do início do jogo e substituí-los por unidades de suporte de alta utilidade que fornecem atordoamentos ou bônus de velocidade para seus Titãs.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso do Chefe da Onda 40">
+O chefe na onda 40 tem uma habilidade de "desativação" que pode paralisar suas torres por 5 segundos. Para contra-atacar isso, espalhe seus Titãs um pouco para que o chefe não possa atingir todos eles com um único pulso em área. Isso garante que pelo menos parte de sua defesa permaneça ativa o tempo todo.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Gerenciamento da Economia e Prioridade de Melhorias">
+
+Em **Skibi Defense**, o dinheiro é seu recurso mais limitado. Um erro comum na **estratégia do capítulo 3 do multiverso de skibi defense** é a "melhoria por pânico" — gastar dinheiro em unidades de nível baixo porque os inimigos estão se aproximando. Em vez disso, você deve manter um equilíbrio entre "Ganância vs. Segurança". Se a vida da sua base estiver acima de 50%, geralmente é melhor deixar algumas unidades pequenas passarem enquanto você finaliza uma melhoria de economia cara.
+
+| Fase de Melhoria | Foco | Unidade Alvo | Gasto Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Início do Jogo** | Geração de Recursos | Unidades de Farm | 70% da renda total |
+| **Meio do Jogo** | Cobertura em Área | Large TV Man | 40% da renda total |
+| **Final do Jogo** | Alvo Único | Unidades Titãs | 90% da renda total |
+| **Fim de Jogo** | Buffs/Utilidade | Unidades de Suporte | 100% da renda total |
+
+<Callout type="success" title="Dica de Máxima Eficiência">
+Sempre calcule o "Dano por Dólar" antes de fazer uma melhoria. Frequentemente, posicionar um novo **Titã** é mais econômico do que comprar a melhoria final e mais cara para uma unidade de nível médio. Verifique a janela de estatísticas no jogo para comparar o aumento de DPS em relação ao custo da melhoria.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Otimização de Posicionamento e Pontos de Estrangulamento">
+
+A geometria do mapa do Capítulo 3 do Multiverso oferece vários "pontos de poder" onde uma única unidade pode cobrir múltiplos caminhos. Identificar esses locais é a diferença entre uma vitória apertada e uma vitória perfeita. A estratégia mais eficaz envolve o "agrupamento" (clustering) — posicionar as unidades de forma que seus alcances se sobreponham perfeitamente nas curvas mais fechadas do mapa.
+
+**Principais Prioridades de Posicionamento:**
+- **A Tríplice Junção**: O ponto onde todas as três rotas iniciais se encontram. Esta é a maior prioridade para unidades de AoE.
+- **A Curva em U**: Localizada perto do meio do mapa, esta curva mantém os inimigos no alcance das suas torres por um tempo 30% maior do que os caminhos retos.
+- **O Portão da Base**: Sua linha final de defesa. Coloque apenas suas unidades de maior dano e maior alcance aqui para pegar os inimigos que "vazarem".
+
+<Checklist
+  id="placement-checklist"
+  title="Lista de Verificação de Prontidão de Defesa:"
+  items={[
+    "Unidades de AoE cobrindo todas as três entradas de rotas",
+    "Pelo menos duas unidades antiaéreas posicionadas até a onda 20",
+    "Titan TV Man posicionado na curva em U principal",
+    "Unidades de economia no nível máximo antes da onda 35",
+    "Unidades de atordoamento espaçadas para evitar sobreposição de tempos de recarga"
+  ]}
+/>
+
+<Callout type="info" title="Estratégia Pro">
+Use a ferramenta "Sobreposição de Alcance" (Range Overlay) na interface do jogo para garantir que não haja "zonas mortas" em sua defesa. Uma zona morta é uma pequena seção da pista que nenhuma torre consegue alcançar. Inimigos de alta velocidade, como o **Elite Glitch Toilet**, usarão essas lacunas para regenerar sua vida ou escudo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes: Táticas do Capítulo 3 do Multiverso">
+
+<FAQ items={[
+  {
+    question: "Qual é a unidade mais importante para a estratégia do capítulo 3 do multiverso de skibi defense?",
+    answer: "O Titan TV Man é a unidade mais crítica. Sua capacidade de causar dano massivo a um único alvo é a única maneira confiável de derrotar os chefes do Capítulo 3 antes que eles cheguem à sua base."
+  },
+  {
+    question: "Como faço para lidar com os inimigos voadores nas ondas finais?",
+    answer: "Você deve implantar Titan Cameramen ou unidades antiaéreas especializadas. Unidades terrestres padrão não podem atingir inimigos voadores, o que levará a uma derrota instantânea se você não estiver preparado até a onda 25."
+  },
+  {
+    question: "Devo vender minhas unidades do início do jogo?",
+    answer: "Sim. Assim que você chegar ao final do jogo (ondas 40+), os Cameramen básicos ocupam espaços de posicionamento valiosos. Venda-os para abrir espaço para mais Titãs ou unidades de suporte de alto nível."
+  },
+  {
+    question: "É melhor ter muitos Titãs de nível baixo ou um Titã no nível máximo?",
+    answer: "Um Titã no nível máximo geralmente é melhor. As melhorias finais costumam fornecer aumentos massivos de atributos e novas habilidades (como queimaduras em área ou atordoamentos) que faltam a várias unidades de nível baixo."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final">
+Mantenha-se atualizado com as últimas notas de atualização. O **Skibi Defense** frequentemente equilibra os custos das unidades e a vida dos inimigos. Uma estratégia que funciona hoje pode precisar de pequenos ajustes após uma atualização semanal. Sempre teste seu loadout em uma partida solo antes de entrar em jogos multijogador de alto risco.
+</Callout>
+
+</Section>

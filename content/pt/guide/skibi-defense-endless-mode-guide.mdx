@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia do Modo Infinito de Skibi Defense: Estratégia para Onda 200+",
+  description: "Domine o Modo Infinito de Skibi Defense com nosso guia. Descubra as melhores configurações, tiers de unidades e estratégias para passar da Onda 200 facilmente.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Endless+Mode+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de Skibi Defense",
+  keywords: "skibi defense, modo infinito, guia, onda 200, estratégia, diamond gojo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Estratégia do Modo Infinito**: Este guia detalha as configurações para sobreviver além da Onda 200 no Skibi Defense.
+- **Foco na Economia**: Maximize o fluxo de caixa cedo, posicionando e melhorando unidades de fazenda (farm) antes da Onda 40.
+- **Seleção de DPS**: Traga unidades secretas como Diamond Gojo para derreter chefes com vida alta.
+- **Utilidade de Suporte**: Utilize unidades de lentidão e atordoamento para controlar a trilha e evitar vazamentos.
+</Callout>
+
+<Section icon={Map} title="Mecânicas Principais e Noções Básicas de Configuração">
+
+O Modo Infinito no Skibi Defense representa o teste final de estratégia, sinergia de unidades e gerenciamento de recursos. Ao contrário dos modos de jogo padrão, o Modo Infinito apresenta um escalonamento infinito de vida, velocidade e resistência dos inimigos. Para alcançar ondas altas, os jogadores devem otimizar seus layouts de posicionamento, gerenciar sua economia de forma eficiente e entender quando fazer a transição de defensores do início do jogo para potências de DPS do final do jogo.
+
+Entender como o escalonamento funciona é crucial. Cada onda aumenta a vida dos inimigos exponencialmente. Quando você chegar à Onda 100, as unidades padrão terão dificuldade em causar dano suficiente. Para progredir além da Onda 200, torna-se obrigatório confiar em unidades de nível Secreto (Secret-tier) e buffs de suporte altamente otimizados.
+
+**Destaques do Vídeo:**
+- Demonstra a viabilidade em ondas altas usando várias unidades Secretas Diamond.
+- Mostra o poder do Diamond Gojo em configurações de defesa de final de jogo.
+- Explica a importância da sinergia cooperativa para alcançar a Onda 211.
+- Destaca estratégias de posicionamento para maximizar o dano em área.
+
+<YouTubeEmbed videoId="qksTKilYR3g" title="Até onde um Pro consegue chegar no Infinito (Skibi Defense)" />
+
+<Callout type="warning" title="Aviso de Escalonamento">
+A velocidade dos inimigos escala rapidamente após a Onda 150. Sem unidades de suporte de lentidão ou atordoamento, inimigos rápidos passarão facilmente por suas defesas, independentemente do seu dano bruto.
+</Callout>
+
+Para se preparar para uma partida bem-sucedida, os jogadores devem se familiarizar com as diferentes fases do Modo Infinito. A tabela abaixo descreve o que esperar durante cada fase.
+
+| Fase | Intervalo de Ondas | Objetivo Primário | Principais Ameaças |
+|--- |--- |--- |--- |
+| Inicial | 1 - 40 | Maximizar economia e estabelecer defesa barata | Batedores rápidos, chefes básicos |
+| Intermediária | 41 - 100 | Maximizar fazendas e transição para DPS médio | Unidades blindadas, chefes iniciais |
+| Final | 101 - 180 | Substituir fazendas por DPS de alto nível e suportes | Chefes com muita vida, corredores velozes |
+| Infinito | 181+ | Maximizar buffs e utilizar unidades secretas | Chefes ultra-escalonados, alvos imunes |
+
+</Section>
+
+<Section icon={Swords} title="Os Melhores Loadouts para o Modo Infinito">
+
+Selecionar o loadout correto antes de iniciar uma partida no Modo Infinito é a diferença entre falhar na Onda 80 ou passar da Onda 200. Seu deck deve conter um equilíbrio entre geradores de economia, defensores de início de jogo, matadores de chefes com alto DPS e unidades de suporte para controle de multidão.
+
+Para jogadores solo, carregar um deck versátil é obrigatório. Em partidas cooperativas, os jogadores podem coordenar funções, permitindo que um jogador se concentre fortemente em buffs de suporte enquanto outros trazem causadores de dano pesado como Diamond Gojo.
+
+<CardGrid cols={3}>
+  <Card title="O Iniciador de Economia">
+    - **Configuração de Fazenda Dupla**
+    - Alta eficiência no início do jogo
+    - Geração rápida de dinheiro
+  </Card>
+  <Card title="Núcleo de DPS Principal">
+    - **Foco no Diamond Gojo**
+    - Alto dano em área (AoE)
+    - Poder crítico para derreter chefes
+  </Card>
+  <Card title="Utilidades de Suporte">
+    - **Unidades de Lentidão e Atordoamento**
+    - Buffers de velocidade de ataque
+    - Debuffers de defesa inimiga
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estratégia Cooperativa">
+Em lobbies multijogador, coordene com seus companheiros de equipe para que apenas um jogador traga unidades de suporte caras. Isso libera slots para que os outros tragam unidades de DPS adicionais.
+</Callout>
+
+Para ajudar você a escolher as melhores unidades para sua partida, consulte a lista de tiers abaixo, que avalia as unidades com base em sua utilidade e escalonamento de dano no Modo Infinito.
+
+| Nome da Unidade | Função | Tier | Característica Principal |
+|--- |--- |--- |--- |
+| Diamond Gojo | DPS Principal | S-Tier | Dano em área excepcional e alto escalonamento |
+| Speaker Titan | DPS de Explosão | A-Tier | Alto dano em alvo único para chefes |
+| Cameraman Farm | Economia | S-Tier | Essencial para gerar dinheiro no final do jogo |
+| Green Laser | Suporte | A-Tier | Atrasa inimigos velozes de forma eficaz |
+| Medic Cameraman | Suporte | B-Tier | Limpa debuffs de atordoamento das suas torres |
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Progressão Onda por Onda">
+
+O sucesso no Modo Infinito requer uma abordagem estruturada. Você não pode simplesmente posicionar unidades aleatoriamente e esperar sobreviver. Seguir um plano de progressão passo a passo garante que sua economia cresça rápido o suficiente para pagar por atualizações caras antes que o escalonamento ultrapasse sua produção de dano.
+
+<Steps>
+  <Step num="1" title="Configuração Inicial (Ondas 1-40)">
+    Concentre-se inteiramente em posicionar suas unidades de economia primeiro. Coloque um defensor barato no início da trilha para lidar com as ondas iniciais enquanto você maximiza suas fazendas. Não gaste demais em unidades defensivas durante esta fase.
+  </Step>
+  <Step num="2" title="Transição Intermediária (Ondas 41-100)">
+    Comece a posicionar unidades de DPS de nível médio perto da frente da trilha. Melhore sua defesa gradualmente conforme a vida dos inimigos aumenta. Certifique-se de ter pelo menos uma unidade de lentidão ativa para gerenciar ondas rápidas.
+  </Step>
+  <Step num="3" title="Otimização Final (Ondas 101-180)">
+    Comece a substituir seus defensores iniciais por unidades de DPS de alto nível, como o Diamond Gojo. Maximize as melhorias em seus principais causadores de dano. Posicione unidades de suporte por perto para aumentar as velocidades de ataque.
+  </Step>
+  <Step num="4" title="O Empurrão Infinito (Ondas 181+)">
+    Venda algumas de suas fazendas para liberar espaço se você atingiu o limite de posicionamento. Preencha os slots extras com suporte adicional ou unidades de alto dano. Fique de olho nas ondas de chefes para ativar habilidades manuais.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Upgrade">
+Sempre priorize melhorar uma única unidade de DPS de alto nível até o seu nível máximo antes de posicionar várias unidades de nível baixo. Unidades totalmente melhoradas ganham bônus massivos de atributos e habilidades extras.
+</Callout>
+
+Use o guia de marcos a seguir para monitorar sua progressão e se preparar para as ameaças que virão.
+
+| Marco de Onda | Economia Alvo | Defesa Necessária | Ações Prioritárias |
+|--- |--- |--- |--- |
+| Onda 40 | Fazendas no Máximo | DPS Médio Nível 3 | Preparar para o primeiro grande chefe |
+| Onda 80 | Fazendas no Máximo | DPS Nível 5 + Lentidão Básica | Adicionar unidades de limpeza de atordoamento |
+| Onda 120 | 80% do Máximo | DPS Principal Máximo + Buffers | Vender unidades baratas do início do jogo |
+| Onda 160 | 50% do Máximo | Múltiplas Unidades Secretas | Maximizar a cobertura de buffs de suporte |
+
+</Section>
+
+<Section icon={Shield} title="Estratégia Avançada e Dicas de Posicionamento">
+
+O posicionamento é crítico ao tentar sobreviver além da Onda 180. Posicionar unidades em curvas permite que elas maximizem seu alcance e ataquem inimigos por uma duração maior. Além disso, sobrepor os alcances de suas unidades de suporte garante que suas unidades de DPS recebam buffs contínuos sem interrupções.
+
+Certifique-se de deixar espaço perto da frente da trilha para unidades de lentidão e atordoamento. Isso atrasa os inimigos na zona de abate de suas unidades de DPS principais, permitindo que seus ataques em área atinjam o maior número de alvos possível.
+
+<Checklist
+  id="endless-prep"
+  title="Checklist de Preparação para o Modo Infinito:"
+  items={[
+    "Equipe pelo menos uma unidade de economia de alto nível",
+    "Traga uma unidade confiável de controle de multidão para lentidão",
+    "Coordene as funções das unidades com seus parceiros cooperativos",
+    "Identifique os melhores posicionamentos de curva no mapa",
+    "Garanta que você tenha um plano para combater chefes que lançam atordoamento"
+  ]}
+/>
+
+<Callout type="info" title="Estratégia de Posicionamento">
+Posicione suas unidades de DPS mais fortes nos loops ou interseções do mapa. Isso permite que elas ataquem os mesmos inimigos várias vezes enquanto eles percorrem a trilha.
+</Callout>
+
+Evite armadilhas comuns que podem arruinar uma partida de ondas altas. A tabela abaixo lista erros frequentes e como corrigi-los.
+
+| Erro Comum | Impacto Negativo | Solução Recomendada |
+|--- |--- |--- |
+| Agrupar unidades de suporte | Buffs sobrepostos sem benefícios extras | Espalhe os suportes para cobrir diferentes zonas de DPS |
+| Negligenciar limpadores de stun | Unidades de DPS são desativadas por chefes | Posicione unidades Medic perto dos causadores de dano |
+| Manter fazendas por muito tempo | Atingir limite de unidades com baixo dano | Venda fazendas gradualmente após a Onda 150 |
+| Ignorar unidades de lentidão | Inimigos rápidos passam pelas defesas | Mantenha pelo menos duas unidades de lentidão de alto nível |
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes (FAQ) do Modo Infinito">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor unidade para usar neste guia do modo infinito de skibi defense?",
+    answer: "O Diamond Gojo é atualmente a melhor unidade para alcançar ondas altas devido ao seu incrível dano em área e forte escalonamento contra chefes de final de jogo."
+  },
+  {
+    question: "Quando devo começar a vender minhas fazendas?",
+    answer: "Você deve começar a vender suas fazendas por volta da Onda 150 a 160, ou sempre que atingir o limite máximo de posicionamento de unidades e precisar de mais espaço para DPS."
+  },
+  {
+    question: "Os buffs de suporte se acumulam no Modo Infinito?",
+    answer: "Buffs idênticos do mesmo tipo de unidade não se acumulam, mas você pode combinar diferentes tipos de buffs (como aumento de dano e aumento de velocidade de ataque) para maximizar a eficiência."
+  },
+  {
+    question: "Como lidar com chefes que atordoam minhas torres?",
+    answer: "Posicione Medic Cameramen perto de suas unidades de DPS principais para limpar automaticamente debuffs de atordoamento e congelamento, mantendo sua defesa ativa."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final">
+Sempre experimente diferentes combinações de unidades e layouts de posicionamento para encontrar o que funciona melhor para o seu estilo de jogo. Boa sorte ao tentar alcançar a Onda 200+!
+</Callout>
+
+</Section>

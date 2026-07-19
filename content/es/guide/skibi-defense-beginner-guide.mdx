@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía para principiantes de Skibi Defense: Consejos y estrategias de inicio para 2026",
+  description: "Domina Skibi Defense con nuestra guía para principiantes de 2026. Aprende configuraciones de unidades, farmeo de divisas y las mejores estrategias iniciales para dominar cada oleada.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Skibi+Defense+Beginner+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de Skibi Defense",
+  keywords: "skibi defense, guía para principiantes, estrategia, unidades, farmeo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía para principiantes de Skibi Defense**: Céntrate en construir un equipamiento equilibrado con al menos un generador de dinero y un defensor para el juego temprano.
+- **Gestión de Divisas**: Prioriza gastar Créditos en espacios para unidades y evita malgastar Monedas Premium en artículos de poco valor.
+- **Progresión de Fragmentos**: Concentra tus esfuerzos en obtener Fragmentos de Diamante en lugar de los Dorados para una mejor progresión a largo plazo.
+- **Modificadores de Juego**: Usa modificadores de dificultad como "Enemigos Poderosos" para aumentar tus multiplicadores de créditos sin alargar las rondas innecesariamente.
+- **Rutina Diaria**: Reclama siempre las recompensas diarias y busca códigos activos para maximizar la obtención de recursos desde el primer día.
+</Callout>
+
+<Section icon={Map} title="Primeros pasos en Skibi Defense">
+
+Entrar en el mundo de Skibi Defense puede ser abrumador para los nuevos jugadores. El objetivo principal es defender tu base contra oleadas de enemigos usando varias unidades, cada una con habilidades únicas y rutas de mejora. El éxito en el juego temprano depende en gran medida de entender cómo gestionar tus recursos y qué unidades priorizar en tus primeras partidas.
+
+**Puntos destacados del video:**
+- **Resumen de Divisas**: Explicación detallada de Créditos, Fragmentos y Monedas Versus.
+- **Sistema de Códigos**: Cómo usar Ctrl+C y Ctrl+V para canjear recompensas activas rápidamente.
+- **Mejoras de Unidades**: Comparación de costes de mejora entre diferentes niveles de unidades.
+- **Estrategia de Cajas**: Por qué la caja de 5 fichas es esencial para obtener cupones premium.
+
+<YouTubeEmbed videoId="Ns_Sb7NI_B4" title="Guía Completa al 100% para Skibi Defense (Parte 1)" />
+
+Entender la economía es el primer paso en esta **guía para principiantes de skibi defense**. Te encontrarás con varios tipos de divisas, cada una con un propósito específico en tu progresión. Los Créditos son tu herramienta principal para comprar unidades y expandir tus espacios de equipamiento. Aunque existen las Monedas Premium como una divisa de pago, los jugadores dedicados pueden obtenerlas gratis a través del juego, aunque deben ahorrarse para pases de juego de alto valor como el modificador de "Velocidad 3x".
+
+| Tipo de Divisa | Obtención Principal | Mejor Caso de Uso | Prioridad |
+| :--- | :--- | :--- | :--- |
+| **Créditos** | Jugar Partidas / Códigos | Comprar Unidades / Espacios | **Alta** |
+| **Fragmentos** | Desafíos / Actos Finales | Mejorar Unidades Específicas | **Media** |
+| **Monedas Versus** | Modo Versus | Unidades de Torre Plateada | **Media** |
+| **Monedas Premium** | Recompensas Diarias / Robux | Modificadores / Aumentos de Suerte | **Baja** |
+| **Fichas** | Tareas Especiales | Abrir Cajas de Recursos | **Alta** |
+
+<Callout type="tip" title="Truco para el Juego Temprano">
+Canjear códigos es la forma más rápida de impulsar tu cuenta. Consulta siempre los canales oficiales de la comunidad para obtener las últimas cadenas y usa el método de copiar y pegar para evitar errores tipográficos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Construyendo tu primer equipamiento de unidades">
+
+Tu equipamiento es la base de tu estrategia. En Skibi Defense, comienzas con cinco espacios, pero puedes comprar más usando Créditos. Un error común de los principiantes es llenar su equipamiento solo con unidades de alto daño. Sin un equipo equilibrado, es probable que te quedes sin fondos antes de poder colocar a tus atacantes pesados.
+
+<CardGrid cols={3}>
+  <Card title="El Generador de Dinero">
+    - **Esencial para la Economía**
+    - Genera dinero extra por oleada
+    - Debe colocarse lo antes posible
+  </Card>
+  <Card title="Defensor de Juego Temprano">
+    - **Bajo Coste, Alta Eficiencia**
+    - Detiene las primeras 10-15 oleadas solo
+    - Ejemplos: Unidades básicas de Cámara o Altavoz
+  </Card>
+  <Card title="El Asesino de Jefes">
+    - **Alta salida de DPS**
+    - Reservado para las oleadas finales
+    - Ejemplos: G-Toilet o Watchman of Doom
+  </Card>
+</CardGrid>
+
+Una composición de equipo exitosa suele seguir una plantilla específica. Necesitas una mezcla de utilidad y potencia bruta para sobrevivir a la dificultad creciente de los capítulos posteriores.
+
+| Rol de Unidad | Cantidad | Tipo Recomendado | Importancia |
+| :--- | :--- | :--- | :--- |
+| **Economía** | 1 | Generador de Dinero / Granja | **Obligatorio** |
+| **Juego Temprano** | 1-2 | AOE de bajo coste / Fuego rápido | **Alta** |
+| **Soporte/Mejora** | 1 | Torres de Buffs | **Media** |
+| **Juego Medio-Tardío** | 1 | Gran Alcance / Objetivo Único | **Alta** |
+| **DPS Juego Tardío** | 1 | Clase Titán / Unidades Míticas | **Alta** |
+
+<Callout type="warning" title="Costes de Mejora">
+Ten en cuenta la escala de las mejoras. Unidades como Gojo tienen costes de mejora significativamente más altos (miles de créditos) en comparación con las unidades básicas que solo cuestan 150 por nivel. Usa cupones para saltarte las costosas mejoras del juego tardío.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pasos de progresión para nuevos jugadores">
+
+Seguir un camino estructurado te ayudará a llegar al Capítulo 7 y más allá mucho más rápido. Esta **guía para principiantes de skibi defense** recomienda centrarse en el Acto 1 hasta que tengas un buen dominio de los alcances y habilidades de tus unidades.
+
+<Steps>
+  <Step num="1" title="Recolección Inicial de Recursos">
+    Comienza jugando el Acto 1 y canjeando todos los códigos disponibles. Usa tus créditos iniciales para comprar una unidad fiable de juego temprano y tu primera unidad "Generadora de Dinero".
+  </Step>
+  <Step num="2" title="Desbloqueo de Espacios de Equipamiento">
+    Tan pronto como tengas un excedente de créditos, compra tu 6º y 7º espacio de equipamiento. Tener más variedad en tu equipo te permite manejar diferentes tipos de enemigos, como unidades rápidas o blindadas.
+  </Step>
+  <Step num="3" title="Farmeo de Cajas y Cupones">
+    Gasta tus fichas en las cajas de 5 fichas. Estas suelen soltar Cupones de Mejora Premium, que son vitales para subir de nivel a las costosas unidades Titán sin gastar dinero del juego durante una partida.
+  </Step>
+  <Step num="4" title="Optimización de Fragmentos">
+    Una vez que llegues al juego medio (Capítulos 7-9), empieza a centrarte en los Fragmentos. Prioriza los Fragmentos de Diamante y Mega Diamante, ya que los Fragmentos Dorados ofrecen rendimientos decrecientes para el esfuerzo requerido.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Rutina Diaria">
+No olvides reclamar tus recompensas diarias cada 24 horas. Estas a menudo incluyen Monedas Premium y Aumentos que reducen significativamente el esfuerzo de farmeo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modificadores avanzados y farmeo">
+
+Una vez que te sientas cómodo con lo básico, deberías empezar a usar modificadores de juego para aumentar tus ganancias de Créditos y XP. Sin embargo, debes elegir tus modificadores sabiamente para evitar que el juego sea imposible o innecesariamente largo.
+
+| Nombre del Modificador | Efecto | Bonificación de Recompensa | Recomendación |
+| :--- | :--- | :--- | :--- |
+| **Enemigos Poderosos** | Los enemigos tienen más HP | +50% Créditos | **Recomendado** |
+| **Doble de Enemigos** | Doble de cantidad de enemigos | +100% Créditos | **Evitar (Muy lento)** |
+| **Enemigos Rápidos** | Los enemigos se mueven más rápido | +25% Créditos | **Usar con ralentizadores** |
+| **Colocaciones Limitadas** | Menos espacios para torres | +75% Créditos | **Solo Expertos** |
+
+Farmear Monedas Versus es otro aspecto crítico del juego final. Estas monedas te permiten acceder a la Tienda Versus, que cuenta con algunas de las unidades más poderosas del juego, como las variantes de la Torre Plateada.
+
+<Checklist
+  id="beginner-milestones"
+  title="Lista de verificación para el éxito del principiante:"
+  items={[
+    "Canjear al menos 5 códigos activos",
+    "Desbloquear los primeros 2 espacios adicionales de equipamiento",
+    "Obtener una unidad Generadora de Dinero para la economía",
+    "Llegar al Capítulo 10 en la campaña principal",
+    "Completar con éxito una partida en modo Desafío para obtener Fragmentos"
+  ]}
+/>
+
+<Callout type="info" title="Prioridad en la Tienda Versus">
+Centra tus Monedas Versus en las Torres Plateadas (Silver Cameraman, Silver Camera Girl). Estas unidades son fundamentales en las estrategias de alto nivel y ofrecen mejor valor que los aumentos de XP.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+Para finalizar esta **guía para principiantes de skibi defense**, aquí están las preguntas más comunes que los nuevos jugadores hacen al comenzar su viaje.
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo más fichas para las cajas?",
+    answer: "Las fichas se ganan principalmente a través de recompensas diarias y completando desafíos específicos en el juego. Ahorrarlas para las cajas de 5 fichas es la forma más eficiente de obtener cupones premium."
+  },
+  {
+    question: "¿En qué fragmentos debo centrarme primero?",
+    answer: "Debes priorizar los Fragmentos de Diamante y Mega Diamante. Los fragmentos dorados generalmente se consideran menos eficientes para las mejoras de unidades de alto nivel."
+  },
+  {
+    question: "¿Son necesarias las Monedas Premium para ganar?",
+    answer: "No, no lo son. Aunque ofrecen comodidades como la velocidad de juego 3x y aumentos de suerte, todas las unidades y mejoras esenciales se pueden obtener a través de Créditos y Fragmentos."
+  },
+  {
+    question: "¿Cuál es el mejor modo para farmear fragmentos?",
+    answer: "El modo Desafíos (Trials) es actualmente la forma más efectiva de farmear Fragmentos, aunque ha sido ajustado recientemente. Requiere un equipamiento fuerte y aproximadamente 1-2 horas para una limpieza completa."
+  }
+]} />
+
+</Section>

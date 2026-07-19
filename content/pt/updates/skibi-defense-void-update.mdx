@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Atualização Void do Skibi Defense: Guia para Desbloquear o Jeffrey e Estratégias de Combate",
+  description: "Domine a atualização void do skibi defense. Aprenda a vencer o desafio The Darkness, desbloquear a unidade Jeffrey e otimizar suas builds de alto DPS.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Void+Update+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki do Skibi Defense",
+  keywords: "skibi defense, atualização void, jeffrey, guia, estratégia, the darkness"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Essência da Atualização Void**: A **atualização void do skibi defense** introduz o mapa de desafio individual ultra-difícil "The Darkness".
+- **A Recompensa Suprema**: Concluir este desafio com sucesso permite aos jogadores obter o **Jeffrey, Ebony of the Void**, uma unidade capaz de ultrapassar 800 milhões de DPS.
+- **Mudança na Economia**: As mecânicas padrão de dinheiro por abate estão desativadas durante o desafio; os jogadores devem confiar inteiramente na renda por onda e em torres utilitárias especializadas.
+- **Mitigação de Atordoamento**: Os inimigos Astra infligem atordoamentos (stuns) pesados, tornando unidades como o **Scientist TV** obrigatórias para reduzir a duração desses efeitos.
+</Callout>
+
+<Section icon={Map} title="O Desafio The Darkness: Mecânicas e Regras">
+
+A **atualização void do skibi defense** traz um dos desafios mecanicamente mais exigentes para o jogo: **The Darkness**. Este desafio para um único jogador opera em uma curva de dificuldade inexplicável, testando sua velocidade de posicionamento, gerenciamento de economia e o tempo de uso das habilidades. Ao contrário dos mapas padrão, onde derrotar inimigos gera fundos imediatos, The Darkness anula completamente o ganho de dinheiro por abates.
+
+**Destaques do Vídeo:**
+- **Suporte no Início do Jogo**: Aprenda como a torre Administrator segura a rota sozinha durante as primeiras ondas.
+- **Recuperação de Atordoamento**: Veja o posicionamento ideal para o Scientist TV limpar atordoamentos de longa duração.
+- **A Jogada de Sacrifício**: Veja como o tempo da explosão do Administrator causa dano massivo para limpar grupos de inimigos Astra.
+- **Exibição do Jeffrey**: Observe os efeitos visuais, o fundo personalizado e o DPS bruto da unidade Jeffrey desbloqueada.
+
+<YouTubeEmbed videoId="hcaETraNcus" title="THE VOID Update Is INSANITY... (Skibi Defense)" />
+
+Para sobreviver, você deve se adaptar a um modelo rigoroso de renda por onda. Isso significa que unidades geradoras de economia, como a Christmas Tree, são altamente valiosas, embora exijam um investimento inicial significativo. Seu objetivo final é sobreviver ao ataque dos inimigos Astra e derrotar a variante chefe do Jeffrey, que ostenta impressionantes 4,66 trilhões de HP, tudo dentro de uma janela apertada de 13 a 14 minutos.
+
+| Parâmetro | Detalhes e Requisitos |
+| :--- | :--- |
+| **Nível de Dificuldade** | Inexplicável (Apenas para um jogador) |
+| **Vida do Chefe (Jeffrey)** | 4,66 Trilhões de HP |
+| **Limite de Tempo** | 13 a 14 Minutos |
+| **Regra de Economia** | Sem dinheiro por abates; apenas renda por onda e torres de fazenda |
+| **Tipo de Inimigo Principal** | Variantes Astra com atordoamentos de alta frequência |
+
+<Callout type="warning" title="Aviso de Atordoamento">
+Os inimigos Astra neste modo podem atordoar seus principais causadores de dano por cinco segundos ou mais. Sem uma mitigação ativa de atordoamento, sua defesa entrará em colapso rapidamente durante as ondas de meio de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Unidades para o Meta da Atualização Void">
+
+Ter sucesso nesta atualização requer uma build cuidadosamente selecionada. Torres de alto dano padrão geralmente falham porque carecem da utilidade necessária para lidar com as mecânicas únicas do Void. Você deve encontrar um equilíbrio entre dano bruto, controle de grupo e geração de economia.
+
+A tabela abaixo descreve as unidades de melhor desempenho no meta atual para este desafio específico:
+
+| Nome da Unidade | Função Principal | Utilidade Base | Avaliação de Desempenho no Void |
+| :--- | :--- | :--- | :--- |
+| **Administrator** | Suporte de Início de Jogo | Spawna unidades, alto dano de sacrifício | ★★★★★ (Essencial) |
+| **Scientist TV** | Suporte e DPS | Diminui duração de stuns, 1.5x dano em Astra | ★★★★★ (Essencial) |
+| **Titan Clockman** | Controle de Grupo | Habilidade global de parada do tempo | ★★★★☆ (Altamente Recomendado) |
+| **Slender TV** | Controle de Rota | Alta mobilidade, limpa vazamentos | ★★★★☆ (Recomendado) |
+| **G-Toilet 5.0 (Jimmy)** | DPS de Final de Jogo | Alto dano em alvo único | ★★★★☆ (Recomendado) |
+
+Para ajudá-lo a construir a equipe perfeita, considere estas três estratégias de build distintas, dependendo do seu estilo de jogo:
+
+<CardGrid cols={3}>
+  <Card title="Configuração de Sobrevivência Solo">
+    - **Foco**: Máxima utilidade e resistência a atordoamento
+    - **Unidades Principais**: Scientist TV, Administrator, Christmas Tree
+    - **Prós**: Início de jogo muito seguro, alta estabilidade
+  </Card>
+  <Card title="Foco em Alto DPS">
+    - **Foco**: Derreter os 4,6 trilhões de HP do chefe rapidamente
+    - **Unidades Principais**: G-Toilet 5.0, Awakened Creator, Titan Clockman
+    - **Prós**: Tempos de conclusão rápidos, alto dano explosivo
+  </Card>
+  <Card title="Controle de Rota Equilibrado">
+    - **Foco**: Prevenir vazamentos mantendo um dano decente no chefe
+    - **Unidades Principais**: Slender TV, Astro Upgraded TV Colossal, Alliance DJ
+    - **Prós**: Excelente controle de grupo, transições flexíveis
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Posicionamento Pro">
+Coloque suas unidades Scientist TV perto da curva central do mapa. Isso garante que sua aura de redução de atordoamento cubra tanto seus spawners de início de jogo quanto seus batedores pesados de final de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia Passo a Passo para Vencer o The Darkness">
+
+Derrotar o chefe e conquistar a **atualização void do skibi defense** requer execução precisa em três fases distintas da partida. Siga estes passos para maximizar suas chances de sucesso.
+
+<Steps>
+  <Step num="1" title="Estabeleça a Economia e a Defesa Inicial">
+    Coloque imediatamente sua torre **Administrator** perto da frente da pista. Esta unidade invocará lacaios controláveis que podem lidar com as ondas iniciais sem exigir atualizações caras. Simultaneamente, coloque sua primeira **Christmas Tree** ou torre de renda e atualize-a sempre que uma onda terminar para construir sua reserva de dinheiro.
+  </Step>
+  <Step num="2" title="Implante Mitigação de Stun e DPS de Meio de Jogo">
+    À medida que os inimigos Astra começarem a aparecer, implante o **Scientist TV**. Atualize-o para desbloquear sua habilidade passiva, que reduz qualquer duração de atordoamento acima de cinco segundos. Introduza o **Slender TV** ou o **Astro Upgraded TV Colossal** para gerenciar a crescente densidade de inimigos e evitar que unidades rápidas escapem.
+  </Step>
+  <Step num="3" title="Ciclo de Parada do Tempo e Execução do Chefe">
+    Assim que o Jeffrey aparecer, coloque o **Titan Clockman**. Coordene sua habilidade global de **Time Stop** com a jogada de **Sacrifice** do Administrator para causar trilhões de dano explosivo. Continue atualizando suas unidades de DPS principais e use o Time Stop continuamente para congelar o chefe no lugar enquanto suas torres desgastam sua barra de vida.
+  </Step>
+</Steps>
+
+Revise o plano de ação fase por fase abaixo para garantir que suas atualizações ocorram no momento certo:
+
+| Fase da Partida | Onda Alvo | Prioridade de Ouro | Habilidade Ativa Principal |
+| :--- | :--- | :--- | :--- |
+| **Início de Jogo** | Ondas 1 a 10 | Maximizar Christmas Trees e colocar Administrator | Invocação de Lacaios |
+| **Meio de Jogo** | Ondas 11 to 20 | Atualizar Scientist TV para defesa contra stun | Striker Flash / Limpeza de Stun |
+| **Final de Jogo** | Ondas 21 to 30 | Implantar DPS pesado (G-Toilet 5.0, Awakened Creator) | Parada do Tempo Global |
+| **Fase do Chefe** | Chefe Ativo | Maximizar spam de habilidades ativas | Sacrifice Play & Ban Hammer |
+
+<Callout type="info" title="Nota sobre Bug de Interface">
+Usar o Sacrifice Play do Administrator às vezes pode causar um bug visual temporário que remove sua interface de usuário. Se isso ocorrer, confie nas teclas de atalho ou espere a transição da fase do chefe, o que geralmente restaura a interface.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Jeffrey, Ebony of the Void: Estatísticas e Habilidades">
+
+Desbloquear o **Jeffrey, Ebony of the Void** recompensa você com uma das torres mais poderosas e visualmente impressionantes do jogo. Jeffrey é uma unidade colossal que domina o campo de batalha, mas usá-lo efetivamente requer a compreensão de suas mecânicas únicas de gume duplo.
+
+O principal truque do Jeffrey é sua habilidade de absorver poder de outras torres. Quando colocado, ele retira um valor definido de todas as outras torres ativas no mapa como um bônus de dano negativo e o adiciona diretamente ao seu próprio dano. Este efeito acumula infinitamente, tornando-o excepcionalmente forte quando combinado com unidades de alto valor, como as variantes de TV.
+
+| Nome da Habilidade / Ataque | Tipo de Dano | DPS Base | Efeito Mecânico Especial |
+| :--- | :--- | :--- | :--- |
+| **Void Claws** | Corte Corpo a Corpo | 100 Milhões | Dano físico rápido em alvo único |
+| **Arm Slam** | Esmagamento em Área | 200 Milhões | Golpe pesado no chão com dano de dispersão |
+| **Void Screamer** | Buff Global | N/A | Concede a todas as torres um buff de dano de 6x por 60 segundos |
+| **Dark Haste** | Buff de Cadência | N/A | Concede um aumento temporário de 3% na cadência de tiro para todas as unidades |
+
+No entanto, as habilidades ativas do Jeffrey trazem penalidades severas assim que suas durações expiram. Por exemplo, após o término do buff de dano de 6x do **Void Screamer**, todas as torres afetadas recebem uma penalidade permanente de -1% de dano. Além disso, suas habilidades ativas compartilham um tempo de recarga global e bloqueiam permanentemente após um determinado número de usos.
+
+<Callout type="success" title="Sinergia Ideal para o Jeffrey">
+Como o Jeffrey drena poder de outras torres posicionadas para aumentar seus próprios atributos, combine-o com unidades de TV baratas e de alto valor. Isso maximiza seu multiplicador de dano passivo, que pode elevar seu DPS total para além de 830 milhões.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Novas Skins e Estética na Atualização Void">
+
+Além da jogabilidade desafiadora e da nova unidade chefe, esta atualização introduz atualizações cosméticas altamente antecipadas. Essas skins não apenas mudam os modelos visuais; elas também oferecem ajustes exclusivos de jogabilidade e bônus de atributos.
+
+O destaque cosmético é a skin **XF Ares** para o Titan Speakerman. Esta skin equipa a unidade com uma armadura brilhante aprimorada e aumenta significativamente seu desempenho em combate.
+
+| Nome da Skin | Unidade Base | Custo de Colocação | Buffs de Jogabilidade Únicos |
+| :--- | :--- | :--- | :--- |
+| **XF Ares** | Titan Speakerman | 12 Milhões | 5% de chance de re-atacar; limita stuns recebidos a 6 segundos |
+| **Commander** | Speakerman | Padrão | Redesign visual, pequeno aumento de alcance |
+| **Tanatos** | Dinâmico (Qualquer) | Varia | Substitui o fundo do mapa por um céu temático de void escuro |
+
+Para completar totalmente tudo o que a atualização tem a oferecer, acompanhe seu progresso usando este checklist:
+
+<Checklist
+  id="void-update-goals"
+  title="Checklist de Conclusão da Atualização Void:"
+  items={[
+    "Concluir o desafio 'The Darkness' na dificuldade solo",
+    "Desbloquear Jeffrey, Ebony of the Void para seu inventário permanente",
+    "Adquirir e equipar a skin XF Ares para o Titan Speakerman",
+    "Alcançar um pico de 800 milhões de DPS usando a mecânica de acúmulo passivo do Jeffrey",
+    "Testar o cosmético de fundo Tanatos em uma partida multijogador padrão"
+  ]}
+/>
+
+<Callout type="tip" title="Recurso de Alvo Duplo">
+A skin XF Ares apresenta blasters com capacidades de alvo duplo. Se apenas um inimigo estiver dentro de seu alcance de ataque, seus blasters causam dano duplo a esse único alvo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como começo o novo desafio na atualização void do skibi defense?",
+    answer: "Você pode acessar o desafio 'The Darkness' a partir do lobby principal. É um mapa apenas para um jogador com dificuldade inexplicável, o que significa que você não pode trazer companheiros de equipe para ajudá-lo."
+  },
+  {
+    question: "Por que não estou ganhando dinheiro ao matar inimigos no novo modo?",
+    answer: "O desafio The Darkness desativa as mecânicas padrão de dinheiro por abate. Você deve confiar na renda de conclusão de onda e em torres utilitárias como a Christmas Tree para financiar suas defesas."
+  },
+  {
+    question: "Como funciona o acúmulo de dano passivo do Jeffrey?",
+    answer: "Jeffrey absorve um valor definido de todas as outras torres posicionadas como um bônus de dano negativo e o adiciona ao seu próprio. Isso significa que suas outras torres causarão um pouco menos de dano, mas o DPS pessoal do Jeffrey disparará, podendo exceder 830 milhões."
+  },
+  {
+    question: "As habilidades ativas do Jeffrey têm efeitos colaterais negativos?",
+    answer: "Sim. Por exemplo, sua habilidade Void Screamer fornece um buff massivo de dano de 6x para todas as torres por 60 segundos, mas assim que a duração termina, todas as torres recebem uma penalidade permanente de -1% de dano. Suas habilidades também bloqueiam permanentemente após três ou quatro usos."
+  }
+]} />
+
+<Callout type="info" title="Nota Final de Estratégia">
+Ao usar o Jeffrey, geralmente é melhor evitar ativar suas habilidades manuais. Deixe que seus ataques físicos passivos de alto DPS façam o trabalho para evitar desencadear as penalidades de atributos pós-habilidade em suas torres de suporte.
+</Callout>
+
+</Section>

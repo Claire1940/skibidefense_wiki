@@ -10,7 +10,14 @@
       "twitterDescription": "Skibi Defense Wiki provides units, codes, strategies, and gameplay guides for Roblox Skibi Defense. Learn upgrades, defenses, and survive waves of enemies."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "tier-list": "Tier List",
+    "units": "Units",
+    "updates": "Updates",
+    "values": "Values"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -443,5 +450,126 @@
     "copyright": "© 2026 Skibi Defense Wiki. Not affiliated with the developers of Skibi Defense or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "codes": {
+      "title": "Skibi Defense Codes",
+      "description": "Active Skibi Defense codes for free credits, boosts, and exclusive cases. Redeem the latest working codes before they expire.",
+      "metaTitle": "Skibi Defense Codes (July 2026) - Free Credits & Boosts",
+      "metaDescription": "Redeem the latest working Skibi Defense codes for free credits, boosts, and exclusive cases. Updated July 2026 with verified active codes.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What Are Skibi Defense Codes?",
+      "whatIsDescription": "Skibi Defense codes are promotional redeem codes released by the developers that grant free in-game rewards such as credits, boosts, and exclusive unit cases. Codes are distributed through official updates, social channels, and milestone events, and each code can only be redeemed once per account.",
+      "why": "Why Use Skibi Defense Codes?",
+      "whySteps": {
+        "step1Title": "Free Progression Boost",
+        "step1Description": "Redeemed codes grant credits and boosts that let you unlock and upgrade units faster without grinding waves.",
+        "step2Title": "Exclusive Cases",
+        "step2Description": "Limited-time codes unlock exclusive unit cases that cannot be obtained through normal gameplay.",
+        "step3Title": "Stay Current",
+        "step3Description": "Codes expire over time, so checking back regularly ensures you never miss free rewards."
+      },
+      "featured": "Featured Codes",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Skibi Defense Guides",
+      "description": "Complete Skibi Defense guides covering beginner tips, chapter strategies, crafting, traits, and progression for every mode.",
+      "metaTitle": "Skibi Defense Guides - Beginner Tips, Chapter Strategy & Progression",
+      "metaDescription": "Master Skibi Defense with in-depth guides on beginner strategy, chapter walkthroughs, crafting, traits, and progression for endless and nightmare modes.",
+      "categoryLabel": "STRATEGY GUIDES",
+      "whatIs": "What Are Skibi Defense Guides?",
+      "whatIsDescription": "Skibi Defense guides cover every aspect of gameplay, from your first unit deployment to clearing the hardest chapters and nightmare difficulty. Each guide breaks down wave mechanics, recommended unit loadouts, currency farming, and boss strategies so you can progress efficiently.",
+      "why": "Why Read Skibi Defense Guides?",
+      "whySteps": {
+        "step1Title": "Beat Difficult Chapters",
+        "step1Description": "Chapter-by-chapter strategies explain enemy waves, boss patterns, and the unit compositions that consistently win.",
+        "step2Title": "Progress Faster",
+        "step2Description": "Learn the most efficient ways to farm credits, unlock units, and build a strong roster without wasted effort.",
+        "step3Title": "Master Every Mode",
+        "step3Description": "From endless mode to nightmare difficulty, guides cover the advanced tactics needed to push your limits."
+      },
+      "featured": "Featured Guides",
+      "all": "All Guides"
+    },
+    "tier-list": {
+      "title": "Skibi Defense Tier List",
+      "description": "Skibi Defense tier list ranking every tower, titan, and unit by power, cost, and meta value to help you build the best loadout.",
+      "metaTitle": "Skibi Defense Tier List - Best Towers, Titans & Units Ranked",
+      "metaDescription": "Find the best units in Skibi Defense with our complete tier list ranking towers, titans, and meta units by power, value, and performance.",
+      "categoryLabel": "TIER RANKINGS",
+      "whatIs": "What Is the Skibi Defense Tier List?",
+      "whatIsDescription": "The Skibi Defense tier list ranks every unit in the game by overall strength, cost efficiency, and current meta relevance. Rankings are based on damage output, upgrade scaling, wave coverage, and performance across chapters and endless mode, helping you prioritize which units to unlock and invest in.",
+      "why": "Why Use the Skibi Defense Tier List?",
+      "whySteps": {
+        "step1Title": "Build the Best Loadout",
+        "step1Description": "Tier rankings show which units are worth your credits and which to skip, so you never waste resources on weak picks.",
+        "step2Title": "Understand the Meta",
+        "step2Description": "The tier list reflects the current meta, highlighting the strongest units for chapters, titans, and endless mode.",
+        "step3Title": "Pick the Right Starter",
+        "step3Description": "Starter and budget tier recommendations help new players choose units that carry them through the early game."
+      },
+      "featured": "Featured Tier Lists",
+      "all": "All Tier Lists"
+    },
+    "units": {
+      "title": "Skibi Defense Units",
+      "description": "Complete database of every Skibi Defense unit, tower, and titan with stats, upgrade costs, abilities, and unlock requirements.",
+      "metaTitle": "Skibi Defense Units & Towers - Stats, Upgrades & Abilities",
+      "metaDescription": "Browse every Skibi Defense unit, tower, titan, and secret unit with full stats, upgrade paths, abilities, and unlock requirements.",
+      "categoryLabel": "UNIT DATABASE",
+      "whatIs": "What Are Skibi Defense Units?",
+      "whatIsDescription": "Skibi Defense units are the deployable characters and structures you place on the map to fight off waves of Skibidi enemies. Each unit has unique stats, abilities, upgrade paths, and cost, ranging from common starters to powerful titans and rare secret units that define late-game strategies.",
+      "why": "Why Study Skibi Defense Units?",
+      "whySteps": {
+        "step1Title": "Know Every Stat",
+        "step1Description": "Detailed unit pages break down damage, range, fire rate, upgrade costs, and special abilities so you can compare options directly.",
+        "step2Title": "Plan Your Upgrades",
+        "step2Description": "Understanding each unit's upgrade path helps you spend credits where they matter most for your strategy.",
+        "step3Title": "Discover Secret Units",
+        "step3Description": "Learn how to unlock hidden and ultimate units that can single-handedly shift difficult battles in your favor."
+      },
+      "featured": "Featured Units",
+      "all": "All Units"
+    },
+    "updates": {
+      "title": "Skibi Defense Updates",
+      "description": "Latest Skibi Defense update logs, patch notes, leaks, and new content including units, maps, and balance changes.",
+      "metaTitle": "Skibi Defense Updates - Patch Notes, Update Logs & Leaks",
+      "metaDescription": "Track every Skibi Defense update with full patch notes, update logs, new units, balance changes, leaks, and upcoming content.",
+      "categoryLabel": "UPDATE LOGS",
+      "whatIs": "What Are Skibi Defense Updates?",
+      "whatIsDescription": "Skibi Defense updates bring new units, maps, chapters, balance changes, and quality-of-life improvements to the game. Update logs document everything added, changed, or fixed in each version, while leaks hint at upcoming content before release so players can prepare their strategies in advance.",
+      "why": "Why Follow Skibi Defense Updates?",
+      "whySteps": {
+        "step1Title": "Stay Ahead of the Meta",
+        "step1Description": "Balance changes and new units shift the meta constantly — following updates keeps your loadout competitive.",
+        "step2Title": "Plan New Content",
+        "step2Description": "Knowing what units and maps are coming helps you save credits and prepare strategies before launch.",
+        "step3Title": "Catch Leaks Early",
+        "step3Description": "Leak coverage reveals upcoming content so you can anticipate changes and adjust your roster before updates go live."
+      },
+      "featured": "Featured Updates",
+      "all": "All Updates"
+    },
+    "values": {
+      "title": "Skibi Defense Value List",
+      "description": "Skibi Defense value list tracking the trade and rarity value of every unit, case, and item to help you trade fairly.",
+      "metaTitle": "Skibi Defense Value List - Unit & Item Trading Values",
+      "metaDescription": "Check the latest Skibi Defense value list for accurate trading values of units, cases, and items based on rarity, demand, and meta.",
+      "categoryLabel": "TRADING VALUES",
+      "whatIs": "What Is the Skibi Defense Value List?",
+      "whatIsDescription": "The Skibi Defense value list tracks the relative trading value of units, cases, and items based on rarity, demand, and current meta relevance. Values help players compare offers, identify fair trades, and understand which units hold long-term worth versus those that fluctuate with balance updates.",
+      "why": "Why Use the Skibi Defense Value List?",
+      "whySteps": {
+        "step1Title": "Trade Fairly",
+        "step1Description": "Accurate values prevent you from accepting bad trades or lowballing other players on rare units.",
+        "step2Title": "Spot Good Deals",
+        "step2Description": "Knowing real-time demand helps you recognize underpriced offers and high-value units before they spike.",
+        "step3Title": "Protect Your Inventory",
+        "step3Description": "Understanding which units hold stable value helps you keep a roster worth trading even after meta shifts."
+      },
+      "featured": "Featured Values",
+      "all": "All Values"
+    }
+  }
 }

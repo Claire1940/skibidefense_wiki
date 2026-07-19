@@ -1,1 +1,524 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "skibi-defense-codes",
+        "file": "skibi-defense-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "skibi-defense-beginner-guide",
+        "file": "skibi-defense-beginner-guide"
+      },
+      {
+        "slug": "skibi-defense-best-way-to-grind-credits",
+        "file": "skibi-defense-best-way-to-grind-credits"
+      },
+      {
+        "slug": "skibi-defense-chapter-6-strategy",
+        "file": "skibi-defense-chapter-6-strategy"
+      },
+      {
+        "slug": "skibi-defense-chapter-7-strategy",
+        "file": "skibi-defense-chapter-7-strategy"
+      },
+      {
+        "slug": "skibi-defense-chapter-8-strategy",
+        "file": "skibi-defense-chapter-8-strategy"
+      },
+      {
+        "slug": "skibi-defense-chapter-9-strategy",
+        "file": "skibi-defense-chapter-9-strategy"
+      },
+      {
+        "slug": "skibi-defense-crafting-guide",
+        "file": "skibi-defense-crafting-guide"
+      },
+      {
+        "slug": "skibi-defense-endless-mode-guide",
+        "file": "skibi-defense-endless-mode-guide"
+      },
+      {
+        "slug": "skibi-defense-how-to-beat-the-darkness",
+        "file": "skibi-defense-how-to-beat-the-darkness"
+      },
+      {
+        "slug": "skibi-defense-multiverse-chapter-2-strategy",
+        "file": "skibi-defense-multiverse-chapter-2-strategy"
+      },
+      {
+        "slug": "skibi-defense-multiverse-chapter-3-strategy",
+        "file": "skibi-defense-multiverse-chapter-3-strategy"
+      },
+      {
+        "slug": "skibi-defense-nightmare-guide",
+        "file": "skibi-defense-nightmare-guide"
+      },
+      {
+        "slug": "skibi-defense-progression-guide",
+        "file": "skibi-defense-progression-guide"
+      },
+      {
+        "slug": "skibi-defense-quest-guide",
+        "file": "skibi-defense-quest-guide"
+      },
+      {
+        "slug": "skibi-defense-traits-guide",
+        "file": "skibi-defense-traits-guide"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "skibi-defense-best-starter-unit",
+        "file": "skibi-defense-best-starter-unit"
+      },
+      {
+        "slug": "skibi-defense-best-units",
+        "file": "skibi-defense-best-units"
+      },
+      {
+        "slug": "skibi-defense-meta-units",
+        "file": "skibi-defense-meta-units"
+      },
+      {
+        "slug": "skibi-defense-tier-list",
+        "file": "skibi-defense-tier-list"
+      },
+      {
+        "slug": "skibi-defense-titans-tier-list",
+        "file": "skibi-defense-titans-tier-list"
+      },
+      {
+        "slug": "skibi-defense-towers-tier-list",
+        "file": "skibi-defense-towers-tier-list"
+      }
+    ],
+    "units": [
+      {
+        "slug": "skibi-defense-administrator",
+        "file": "skibi-defense-administrator"
+      },
+      {
+        "slug": "skibi-defense-all-units",
+        "file": "skibi-defense-all-units"
+      },
+      {
+        "slug": "skibi-defense-jeffrey",
+        "file": "skibi-defense-jeffrey"
+      },
+      {
+        "slug": "skibi-defense-master-of-hand",
+        "file": "skibi-defense-master-of-hand"
+      },
+      {
+        "slug": "skibi-defense-o5-tv",
+        "file": "skibi-defense-o5-tv"
+      },
+      {
+        "slug": "skibi-defense-secret-units",
+        "file": "skibi-defense-secret-units"
+      },
+      {
+        "slug": "skibi-defense-towers",
+        "file": "skibi-defense-towers"
+      },
+      {
+        "slug": "skibi-defense-ultimate-units",
+        "file": "skibi-defense-ultimate-units"
+      },
+      {
+        "slug": "skibi-defense-units",
+        "file": "skibi-defense-units"
+      },
+      {
+        "slug": "skibi-defense-watchman-of-doom",
+        "file": "skibi-defense-watchman-of-doom"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "skibi-defense-armada-update",
+        "file": "skibi-defense-armada-update"
+      },
+      {
+        "slug": "skibi-defense-leaks",
+        "file": "skibi-defense-leaks"
+      },
+      {
+        "slug": "skibi-defense-new-update",
+        "file": "skibi-defense-new-update"
+      },
+      {
+        "slug": "skibi-defense-update-5",
+        "file": "skibi-defense-update-5"
+      },
+      {
+        "slug": "skibi-defense-update-log",
+        "file": "skibi-defense-update-log"
+      },
+      {
+        "slug": "skibi-defense-update",
+        "file": "skibi-defense-update"
+      },
+      {
+        "slug": "skibi-defense-void-update",
+        "file": "skibi-defense-void-update"
+      }
+    ],
+    "values": [
+      {
+        "slug": "skibi-defense-value",
+        "file": "skibi-defense-value"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "skibi-defense-codes",
+        "file": "skibi-defense-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "skibi-defense-beginner-guide",
+        "file": "skibi-defense-beginner-guide"
+      },
+      {
+        "slug": "skibi-defense-best-way-to-grind-credits",
+        "file": "skibi-defense-best-way-to-grind-credits"
+      },
+      {
+        "slug": "skibi-defense-chapter-6-strategy",
+        "file": "skibi-defense-chapter-6-strategy"
+      },
+      {
+        "slug": "skibi-defense-chapter-7-strategy",
+        "file": "skibi-defense-chapter-7-strategy"
+      },
+      {
+        "slug": "skibi-defense-chapter-8-strategy",
+        "file": "skibi-defense-chapter-8-strategy"
+      },
+      {
+        "slug": "skibi-defense-chapter-9-strategy",
+        "file": "skibi-defense-chapter-9-strategy"
+      },
+      {
+        "slug": "skibi-defense-crafting-guide",
+        "file": "skibi-defense-crafting-guide"
+      },
+      {
+        "slug": "skibi-defense-endless-mode-guide",
+        "file": "skibi-defense-endless-mode-guide"
+      },
+      {
+        "slug": "skibi-defense-how-to-beat-the-darkness",
+        "file": "skibi-defense-how-to-beat-the-darkness"
+      },
+      {
+        "slug": "skibi-defense-multiverse-chapter-2-strategy",
+        "file": "skibi-defense-multiverse-chapter-2-strategy"
+      },
+      {
+        "slug": "skibi-defense-multiverse-chapter-3-strategy",
+        "file": "skibi-defense-multiverse-chapter-3-strategy"
+      },
+      {
+        "slug": "skibi-defense-nightmare-guide",
+        "file": "skibi-defense-nightmare-guide"
+      },
+      {
+        "slug": "skibi-defense-progression-guide",
+        "file": "skibi-defense-progression-guide"
+      },
+      {
+        "slug": "skibi-defense-quest-guide",
+        "file": "skibi-defense-quest-guide"
+      },
+      {
+        "slug": "skibi-defense-traits-guide",
+        "file": "skibi-defense-traits-guide"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "skibi-defense-best-starter-unit",
+        "file": "skibi-defense-best-starter-unit"
+      },
+      {
+        "slug": "skibi-defense-best-units",
+        "file": "skibi-defense-best-units"
+      },
+      {
+        "slug": "skibi-defense-meta-units",
+        "file": "skibi-defense-meta-units"
+      },
+      {
+        "slug": "skibi-defense-tier-list",
+        "file": "skibi-defense-tier-list"
+      },
+      {
+        "slug": "skibi-defense-titans-tier-list",
+        "file": "skibi-defense-titans-tier-list"
+      },
+      {
+        "slug": "skibi-defense-towers-tier-list",
+        "file": "skibi-defense-towers-tier-list"
+      }
+    ],
+    "units": [
+      {
+        "slug": "skibi-defense-administrator",
+        "file": "skibi-defense-administrator"
+      },
+      {
+        "slug": "skibi-defense-all-units",
+        "file": "skibi-defense-all-units"
+      },
+      {
+        "slug": "skibi-defense-jeffrey",
+        "file": "skibi-defense-jeffrey"
+      },
+      {
+        "slug": "skibi-defense-master-of-hand",
+        "file": "skibi-defense-master-of-hand"
+      },
+      {
+        "slug": "skibi-defense-o5-tv",
+        "file": "skibi-defense-o5-tv"
+      },
+      {
+        "slug": "skibi-defense-secret-units",
+        "file": "skibi-defense-secret-units"
+      },
+      {
+        "slug": "skibi-defense-towers",
+        "file": "skibi-defense-towers"
+      },
+      {
+        "slug": "skibi-defense-ultimate-units",
+        "file": "skibi-defense-ultimate-units"
+      },
+      {
+        "slug": "skibi-defense-units",
+        "file": "skibi-defense-units"
+      },
+      {
+        "slug": "skibi-defense-watchman-of-doom",
+        "file": "skibi-defense-watchman-of-doom"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "skibi-defense-armada-update",
+        "file": "skibi-defense-armada-update"
+      },
+      {
+        "slug": "skibi-defense-leaks",
+        "file": "skibi-defense-leaks"
+      },
+      {
+        "slug": "skibi-defense-new-update",
+        "file": "skibi-defense-new-update"
+      },
+      {
+        "slug": "skibi-defense-update-5",
+        "file": "skibi-defense-update-5"
+      },
+      {
+        "slug": "skibi-defense-update-log",
+        "file": "skibi-defense-update-log"
+      },
+      {
+        "slug": "skibi-defense-update",
+        "file": "skibi-defense-update"
+      },
+      {
+        "slug": "skibi-defense-void-update",
+        "file": "skibi-defense-void-update"
+      }
+    ],
+    "values": [
+      {
+        "slug": "skibi-defense-value",
+        "file": "skibi-defense-value"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "skibi-defense-codes",
+        "file": "skibi-defense-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "skibi-defense-beginner-guide",
+        "file": "skibi-defense-beginner-guide"
+      },
+      {
+        "slug": "skibi-defense-best-way-to-grind-credits",
+        "file": "skibi-defense-best-way-to-grind-credits"
+      },
+      {
+        "slug": "skibi-defense-chapter-6-strategy",
+        "file": "skibi-defense-chapter-6-strategy"
+      },
+      {
+        "slug": "skibi-defense-chapter-7-strategy",
+        "file": "skibi-defense-chapter-7-strategy"
+      },
+      {
+        "slug": "skibi-defense-chapter-8-strategy",
+        "file": "skibi-defense-chapter-8-strategy"
+      },
+      {
+        "slug": "skibi-defense-chapter-9-strategy",
+        "file": "skibi-defense-chapter-9-strategy"
+      },
+      {
+        "slug": "skibi-defense-crafting-guide",
+        "file": "skibi-defense-crafting-guide"
+      },
+      {
+        "slug": "skibi-defense-endless-mode-guide",
+        "file": "skibi-defense-endless-mode-guide"
+      },
+      {
+        "slug": "skibi-defense-how-to-beat-the-darkness",
+        "file": "skibi-defense-how-to-beat-the-darkness"
+      },
+      {
+        "slug": "skibi-defense-multiverse-chapter-2-strategy",
+        "file": "skibi-defense-multiverse-chapter-2-strategy"
+      },
+      {
+        "slug": "skibi-defense-multiverse-chapter-3-strategy",
+        "file": "skibi-defense-multiverse-chapter-3-strategy"
+      },
+      {
+        "slug": "skibi-defense-nightmare-guide",
+        "file": "skibi-defense-nightmare-guide"
+      },
+      {
+        "slug": "skibi-defense-progression-guide",
+        "file": "skibi-defense-progression-guide"
+      },
+      {
+        "slug": "skibi-defense-quest-guide",
+        "file": "skibi-defense-quest-guide"
+      },
+      {
+        "slug": "skibi-defense-traits-guide",
+        "file": "skibi-defense-traits-guide"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "skibi-defense-best-starter-unit",
+        "file": "skibi-defense-best-starter-unit"
+      },
+      {
+        "slug": "skibi-defense-best-units",
+        "file": "skibi-defense-best-units"
+      },
+      {
+        "slug": "skibi-defense-meta-units",
+        "file": "skibi-defense-meta-units"
+      },
+      {
+        "slug": "skibi-defense-tier-list",
+        "file": "skibi-defense-tier-list"
+      },
+      {
+        "slug": "skibi-defense-titans-tier-list",
+        "file": "skibi-defense-titans-tier-list"
+      },
+      {
+        "slug": "skibi-defense-towers-tier-list",
+        "file": "skibi-defense-towers-tier-list"
+      }
+    ],
+    "units": [
+      {
+        "slug": "skibi-defense-administrator",
+        "file": "skibi-defense-administrator"
+      },
+      {
+        "slug": "skibi-defense-all-units",
+        "file": "skibi-defense-all-units"
+      },
+      {
+        "slug": "skibi-defense-jeffrey",
+        "file": "skibi-defense-jeffrey"
+      },
+      {
+        "slug": "skibi-defense-master-of-hand",
+        "file": "skibi-defense-master-of-hand"
+      },
+      {
+        "slug": "skibi-defense-o5-tv",
+        "file": "skibi-defense-o5-tv"
+      },
+      {
+        "slug": "skibi-defense-secret-units",
+        "file": "skibi-defense-secret-units"
+      },
+      {
+        "slug": "skibi-defense-towers",
+        "file": "skibi-defense-towers"
+      },
+      {
+        "slug": "skibi-defense-ultimate-units",
+        "file": "skibi-defense-ultimate-units"
+      },
+      {
+        "slug": "skibi-defense-units",
+        "file": "skibi-defense-units"
+      },
+      {
+        "slug": "skibi-defense-watchman-of-doom",
+        "file": "skibi-defense-watchman-of-doom"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "skibi-defense-armada-update",
+        "file": "skibi-defense-armada-update"
+      },
+      {
+        "slug": "skibi-defense-leaks",
+        "file": "skibi-defense-leaks"
+      },
+      {
+        "slug": "skibi-defense-new-update",
+        "file": "skibi-defense-new-update"
+      },
+      {
+        "slug": "skibi-defense-update-5",
+        "file": "skibi-defense-update-5"
+      },
+      {
+        "slug": "skibi-defense-update-log",
+        "file": "skibi-defense-update-log"
+      },
+      {
+        "slug": "skibi-defense-update",
+        "file": "skibi-defense-update"
+      },
+      {
+        "slug": "skibi-defense-void-update",
+        "file": "skibi-defense-void-update"
+      }
+    ],
+    "values": [
+      {
+        "slug": "skibi-defense-value",
+        "file": "skibi-defense-value"
+      }
+    ]
+  }
+}

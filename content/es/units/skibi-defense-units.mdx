@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, List } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "unidades de skibi defense: Clasificación y estadísticas de la Raza Lápiz de la Actualización 5",
+  description: "Explora las nuevas unidades de skibi defense en la Actualización 5. Aprende sobre la Raza Lápiz, las mecánicas de clonación y las mejores unidades de alto DPS como Blastery Colossal Pencor.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Pencil+Race+Units+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de skibi defense"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Unidades primarias**: La Raza Lápiz de la Actualización 5 introduce **unidades de skibi defense** únicas capaces de clonar e invocar.
+- **DPS Máximo**: Blastery Colossal Pencor lidera el grupo con un enorme DPS de 76 millones en su nivel máximo.
+- **Mecánica de clonación**: Usa el recurso "Rojo" para clonar aliados poderosos, incluyendo unidades Prime o Gman.
+- **Nuevo mapa**: Enerus sirve como el principal campo de pruebas para estas unidades de invocación de alto nivel.
+- **Estrategia clave**: Equilibra invocadores como el Pencil Helicopter con atacantes de alto daño como C Pen para una defensa óptima.
+</Callout>
+
+<Section icon={Map} title="Actualización 5: El surgimiento de la Raza Lápiz">
+
+La última expansión del mapa Enerus ha introducido un elenco transformador de **unidades de skibi defense** conocido como la Raza Lápiz. A diferencia de las torres tradicionales que dependen únicamente del fuego directo, la Raza Lápiz cambia el meta hacia mecánicas de clonación e invocación de hordas. Esta actualización requiere que los jugadores gestionen un nuevo recurso, la energía Roja, para maximizar la efectividad de sus líneas defensivas. Comprender la sinergia entre la duración de la clonación y el daño bruto es ahora esencial para completar el contenido de oleadas altas en el mapa Enerus.
+
+**Puntos destacados del video:**
+- Presentación detallada de las nuevas unidades de la Raza Lápiz y sus habilidades de clonación únicas.
+- Desglose del diseño del mapa Enerus y las zonas de colocación óptimas.
+- Comparación de estadísticas de DPS para Blastery Colossal Pencor y C Pen.
+- Demostración de la gestión del recurso de energía "Roja" para clonar unidades de alto nivel.
+
+<YouTubeEmbed videoId="3Tu446Ng-24" title="¡Actualización 5 de Skibi Defense! Nuevas unidades de la Raza Lápiz" />
+
+<Callout type="success" title="Cambio de Meta">
+La introducción de la Raza Lápiz marca la primera vez que las mecánicas de ataque en línea y la clonación de unidades se vuelven centrales para la estrategia de alto nivel en skibi defense.
+</Callout>
+
+| Nombre de la unidad | Rol principal | DPS base | Mecánica especial |
+| :--- | :--- | :--- | :--- |
+| Lápiz | Iniciador/Clonador | 500 | Clona unidades usando energía Roja |
+| Pencil Helicopter | Invocador | Variable | Invoca tripulación de lápices, ataque en línea |
+| Large Hammer Pencil | Atacante en área | 369,000 | Ancho de área de efecto de 10m, bajo tiempo de recarga |
+| C Pen | DPS principal | 1.44 millones | Híbrido de navaja/minigun, perforante |
+| Blastery Colossal Pencor | Ultra DPS | 76 millones | Clonación de alto costo, daño masivo |
+
+</Section>
+
+<Section icon={Zap} title="Mecánicas de clonación y gestión de la energía Roja">
+
+En el corazón de las nuevas **unidades de skibi defense** se encuentra el sistema de clonación. Unidades como el Lápiz estándar y el Chief Pencil Guy no solo atacan; replican a otras unidades en el campo. Este proceso es impulsado por el "Rojo", un recurso que se regenera con el tiempo. Gestionar tu capacidad máxima de Rojo y tu tasa de regeneración es la diferencia entre una distracción temporal y un muro de fuego permanente.
+
+La duración de la clonación aumenta significativamente con las mejoras de las unidades. Por ejemplo, una unidad de Lápiz base comienza con una duración de clonación corta, pero a medida que inviertes en mejoras, los clones persisten más tiempo en el campo de batalla, lo que permite ventanas de daño superpuestas. Esto es particularmente efectivo al clonar objetivos de alto valor como Upgraded Colossal Clock o Gman, aunque el costo de Rojo para tales unidades de élite es sustancialmente mayor.
+
+<CardGrid cols={3}>
+  <Card title="Recurso Rojo">
+    - **Tasa de regeneración**: Aumenta en 0.5 por segundo en los niveles más altos.
+    - **Capacidad máxima**: Determina qué unidades se pueden clonar.
+    - **Uso estratégico**: Guarda Rojo para clones de alto DPS durante las oleadas de jefes.
+  </Card>
+  <Card title="Duración de clonación">
+    - **Niveles base**: De 5 a 7.5 segundos de tiempo activo.
+    - **Niveles altos**: Ventanas extendidas para un DPS sostenido.
+    - **Tiempos de recarga**: Gestiona el intervalo entre la expiración de los clones.
+  </Card>
+  <Card title="Prioridad de objetivos">
+    - **Objetivos de DPS**: Clona unidades con más de 1M de daño.
+    - **Objetivos de utilidad**: Clona unidades con efectos de ralentización o aturdimiento.
+    - **Colocación**: Coloca a los clonadores cerca de las unidades más fuertes de tu mapa.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estrategia Pro">
+Cuando uses al Chief Pencil Guy, concéntrate en mejorar su capacidad máxima de Rojo desde el principio. Esto le permite clonar unidades más caras como C Pen mucho antes en la partida.
+</Callout>
+
+| Nivel de mejora | Rojo Máx | Duración del clon | Tasa de reg. |
+| :--- | :--- | :--- | :--- |
+| Nivel 1 | 10 | 3.0s | 0.25/s |
+| Nivel 2 | 12 | 5.0s | 0.50/s |
+| Nivel 3 | 15 | 7.5s | 0.50/s |
+| Nivel Máx | 245+ | 15.0s+ | 1.00/s+ |
+
+</Section>
+
+<Section icon={Swords} title="Análisis de unidades de primer nivel: Blastery Colossal Pencor y C Pen">
+
+En el meta actual, Blastery Colossal Pencor se erige como la reina indiscutible de las **unidades de skibi defense**. Con un asombroso DPS de 76 millones en su nivel máximo, está diseñada para destrozar a los jefes con más vida del juego. Su alto costo está justificado por su capacidad de clonar casi cualquier unidad, incluyendo a Prime y Gman, siempre que tengas la energía Roja para mantener la transformación.
+
+C Pen, aunque ofrece un DPS bruto menor que Colossal Pencor, proporciona una presión más constante a mitad de la partida. Utilizando una combinación de navajas y una minigun, C Pen presenta un ataque perforante que puede golpear a múltiples enemigos en línea. Esto hace que C Pen sea ideal para la defensa en pasillos donde los enemigos están muy agrupados.
+
+<Callout type="warning" title="Advertencia de Costo">
+Blastery Colossal Pencor es extremadamente cara. No intentes apresurar su colocación en las primeras oleadas sin una economía sólida o te verás abrumado por hordas más pequeñas.
+</Callout>
+
+| Característica | C Pen | Blastery Colossal Pencor |
+| :--- | :--- | :--- |
+| **DPS Máximo** | 1.44 millones | 76 millones |
+| **Tipo de ataque** | Perforante/Minigun | Ráfaga alta/Clonación |
+| **Uso principal** | Limpieza de carriles | Destrucción de jefes |
+| **Capacidad de clonación** | No | Sí (Hasta 245 de Rojo) |
+| **Tiempo de carga** | Corto | Moderado |
+
+<Steps>
+  <Step num="1" title="Construcción de economía">
+    Concéntrate en unidades de bajo costo y generación de ingresos en las primeras 10 oleadas. Evita colocar unidades de Lápiz de alto nivel demasiado pronto.
+  </Step>
+  <Step num="2" title="Perforación a mitad de partida">
+    Despliega a C Pen al final de un largo tramo recto para maximizar el daño de su minigun perforante y sus navajas.
+  </Step>
+  <Step num="3" title="Escalamiento en el juego tardío">
+    Transiciona hacia Blastery Colossal Pencor una vez que tu capacidad máxima de Rojo pueda soportar la clonación de aliados de alto nivel.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Unidades de invocación y tácticas de horda">
+
+El Pencil Helicopter y el Large Pencil Summoner representan un lado diferente del catálogo de **unidades de skibi defense**. En lugar de clonar torres existentes, estas unidades invocan "Hombres Lápiz" independientes a la línea del frente. Estas invocaciones actúan como bloqueadores móviles y atacantes, moviéndose hacia el punto de aparición de los enemigos para enfrentarse a los objetivos antes de que alcancen tu línea de defensa principal.
+
+El Pencil Helicopter es particularmente único debido a su ataque en línea, una nueva mecánica para el juego. Invoca a varios miembros de la "Tripulación Lápiz", proporcionando un flujo constante de carne de cañón para distraer y dañar a las oleadas entrantes. Aunque su DPS individual pueda parecer bajo en comparación con C Pen, el daño colectivo de una horda invocada puede retrasar eficazmente incluso a los enemigos más rápidos.
+
+<Callout type="info" title="Mecánicas de Invocación">
+Las unidades invocadas tienen sus propias estadísticas de vida y daño. Es mejor usarlas para crear "puntos de estrangulamiento" lejos de tu base.
+</Callout>
+
+| Unidad invocadora | Cant. máx. de invocaciones | Tipo de invocación | Atributo clave |
+| :--- | :--- | :--- | :--- |
+| Pencil Helicopter | 5 | Tripulación Lápiz | Soporte de ataque en línea |
+| Large Pencil Summoner | 3-5 | Niveles de Pensman | Alto escalamiento (111M DPS) |
+| Chief Pencil Guy | 4 | Unidades de lápiz mixtas | Invocación/Clonación combinada |
+| Large Hammer Pencil | N/D | Martillo en área | Aturdimiento/Retroceso pesado |
+
+</Section>
+
+<Section icon={Shield} title="Colocación óptima y sinergias">
+
+Para aprovechar al máximo tus **unidades de skibi defense**, la colocación lo es todo. Debido a que muchas unidades de Lápiz utilizan ataques en línea o martillos en área, deben colocarse en las esquinas o al comienzo de caminos rectos y largos. El Large Hammer Pencil, por ejemplo, tiene un ancho de área de efecto de 10 metros, lo que lo hace increíblemente efectivo cuando los enemigos se agrupan en una curva.
+
+La sinergia también es vital. Emparejar un Chief Pencil Guy con una unidad de alto daño como un Titán te permite duplicar eficazmente la presencia de tu unidad más fuerte por una fracción del costo original. Sin embargo, debes asegurarte de que la regeneración de tu energía Roja pueda mantener el ritmo de la expiración de los clones.
+
+<CardGrid cols={2}>
+  <Card title="La 'Bolsa' de Clonación">
+    Crea un grupo de tus unidades que no sean Lápiz más fuertes en un área. Coloca tus clonadores de Lápiz en el centro para asegurarte de que siempre tengan objetivos de alto valor dentro de su alcance.
+  </Card>
+  <Card title="La línea del frente de 'Hordas'">
+    Coloca Pencil Helicopters e Invocadores cerca de la entrada enemiga. Esto obliga a los enemigos a perder tiempo y daño en las invocaciones en lugar de tus torres principales.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Rojo Máximo">
+Invierte en las mejoras finales del Large Pencil Summoner para alcanzar el umbral de 55 de Rojo, que es el punto óptimo para clonar la mayoría de las unidades de utilidad de nivel medio a alto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de progresión y preguntas frecuentes">
+
+La Raza Lápiz ofrece un estilo de juego complejo pero gratificante para aquellos dispuestos a dominar el sistema de energía Roja. Siguiendo las rutas de mejora y las estrategias de colocación descritas anteriormente, podrás conquistar el mapa Enerus y adentrarte en el juego tardío profundo de skibi defense.
+
+<Checklist
+  id="pencil-race-goals"
+  title="Lista de verificación para dominar la Raza Lápiz:"
+  items={[
+    "Desbloquear el mapa Enerus para pruebas",
+    "Alcanzar el nivel máximo con Blastery Colossal Pencor",
+    "Clonar con éxito una unidad Prime o Gman",
+    "Dominar la gestión de energía Roja para un 100% de tiempo de actividad de los clones",
+    "Desplegar una horda completa de Pencil Helicopter"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor unidad de skibi defense para dañar a los jefes en la Actualización 5?",
+    answer: "Blastery Colossal Pencor es la mejor unidad para dañar a los jefes, alcanzando hasta 76 millones de DPS en su nivel máximo de mejora."
+  },
+  {
+    question: "¿Cómo funciona el recurso de energía \"Roja\" para las unidades de Lápiz?",
+    answer: "La energía Roja es un recurso único utilizado por las unidades de Lápiz para clonar otras torres. Tiene una capacidad máxima y una tasa de regeneración que se pueden mejorar mediante las mejoras de la unidad."
+  },
+  {
+    question: "¿Pueden las unidades de Lápiz clonar cualquier torre del juego?",
+    answer: "La mayoría de las unidades de Lápiz pueden clonar una amplia variedad de torres, incluyendo unidades de élite como Prime o Gman, siempre que la capacidad máxima de Rojo de la unidad cubra el costo de la torre objetivo."
+  },
+  {
+    question: "¿Cuál es el beneficio del ataque en línea del Pencil Helicopter?",
+    answer: "El ataque en línea permite que la unidad y sus invocaciones dañen a cada enemigo dentro de un camino específico, lo que lo hace muy efectivo contra oleadas densas de enemigos en pistas rectas."
+  }
+]} />
+
+</Section>
