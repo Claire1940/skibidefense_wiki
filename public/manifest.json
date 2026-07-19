@@ -1,12 +1,14 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Skibi Defense Wiki - Roblox Tower Defense, Units & Codes",
+  "short_name": "Skibi Defense",
+  "description": "Skibi Defense Wiki provides units, codes, strategies, and gameplay guides for Roblox Skibi Defense. Learn upgrades, defenses, and survive waves of enemies.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#f44725",
   "background_color": "#0a0a0a",
+  "categories": ["games", "entertainment"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
