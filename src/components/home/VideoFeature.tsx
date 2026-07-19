@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { ExternalLink } from "lucide-react";
 
 interface VideoFeatureProps {
@@ -9,6 +9,7 @@ interface VideoFeatureProps {
 }
 
 export function VideoFeature({ videoId, title }: VideoFeatureProps) {
+  const [playing, setPlaying] = useState(false);
   const watchUrl = useMemo(
     () => `https://www.youtube.com/watch?v=${videoId}`,
     [videoId],
@@ -22,15 +23,46 @@ export function VideoFeature({ videoId, title }: VideoFeatureProps) {
 
   return (
     <div className="space-y-4">
-      <div className="relative w-full overflow-hidden rounded-lg" style={{ paddingBottom: "56.25%" }}>
-        <iframe
-          className="absolute top-0 left-0 w-full h-full"
-          src={embedUrl}
-          title={title}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
+      <div
+        className="relative w-full overflow-hidden rounded-lg bg-black"
+        style={{ paddingBottom: "56.25%" }}
+      >
+        {playing ? (
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src={embedUrl}
+            title={title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        ) : (
+          <button
+            type="button"
+            onClick={() => setPlaying(true)}
+            className="group absolute top-0 left-0 w-full h-full"
+            aria-label={`Play video: ${title}`}
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/hero.webp"
+              alt={title}
+              className="w-full h-full object-cover"
+            />
+            <span className="absolute inset-0 flex items-center justify-center bg-black/30 transition group-hover:bg-black/20">
+              <span className="flex items-center justify-center w-16 h-16 md:w-20 md:h-20 rounded-full bg-[hsl(var(--nav-theme))] group-hover:scale-110 transition-transform shadow-lg">
+                <svg
+                  viewBox="0 0 24 24"
+                  className="w-7 h-7 md:w-9 md:h-9 ml-1"
+                  fill="white"
+                  aria-hidden="true"
+                >
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </span>
+            </span>
+          </button>
+        )}
       </div>
 
       <div className="flex justify-center">
