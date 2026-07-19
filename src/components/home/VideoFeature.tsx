@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { ExternalLink } from "lucide-react";
 
 interface VideoFeatureProps {
@@ -9,25 +9,50 @@ interface VideoFeatureProps {
 }
 
 export function VideoFeature({ videoId, title }: VideoFeatureProps) {
-  const [playing, setPlaying] = useState(false);
+  const [active, setActive] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+
   const watchUrl = useMemo(
     () => `https://www.youtube.com/watch?v=${videoId}`,
     [videoId],
   );
 
+  // Autoplay + muted + loop. YouTube requires `playlist=<videoId>` for loop to work.
   const embedUrl = useMemo(
     () =>
-      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`,
+      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playsinline=1&rel=0&playlist=${videoId}`,
     [videoId],
   );
+
+  // Auto-play when the video scrolls into view (keeps click-to-play as fallback)
+  useEffect(() => {
+    const node = containerRef.current;
+    if (!node || active) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActive(true);
+            observer.disconnect();
+          }
+        });
+      },
+      { threshold: 0.35 },
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [active]);
 
   return (
     <div className="space-y-4">
       <div
+        ref={containerRef}
         className="relative w-full overflow-hidden rounded-lg bg-black"
         style={{ paddingBottom: "56.25%" }}
       >
-        {playing ? (
+        {active ? (
           <iframe
             className="absolute top-0 left-0 w-full h-full"
             src={embedUrl}
@@ -39,7 +64,7 @@ export function VideoFeature({ videoId, title }: VideoFeatureProps) {
         ) : (
           <button
             type="button"
-            onClick={() => setPlaying(true)}
+            onClick={() => setActive(true)}
             className="group absolute top-0 left-0 w-full h-full"
             aria-label={`Play video: ${title}`}
           >
