@@ -118,22 +118,22 @@
         {
           "code": "5MVISITS",
           "reward": "Recompensas gratuitas no jogo",
-          "status": "Ativo"
+          "status": "Active"
         },
         {
           "code": "1MVISITS",
           "reward": "Moedas e recompensas gratuitas",
-          "status": "Ativo"
+          "status": "Active"
         },
         {
           "code": "RELEASE",
           "reward": "Recompensas bônus para iniciantes",
-          "status": "Ativo"
+          "status": "Active"
         },
         {
           "code": "OBRIGADO",
           "reward": "Recompensas de bônus especiais",
-          "status": "Expirado"
+          "status": "Expired"
         }
       ],
       "redeemTitle": "Como resgatar códigos de Skibi Defense",
@@ -155,7 +155,7 @@
     },
     "skibiDefenseBeginnerGuide": {
       "title": "Guia de iniciantes de Skibi Defense",
-      "displayType": "passo a passo",
+      "displayType": "step-by-step",
       "intro": "Novo no Skibi Defense? Este guia para iniciantes cobre as mecânicas principais, gerenciamento de moedas e estratégias de início de jogo que você precisa para posicionar unidades eficazes, sobreviver às primeiras ondas e construir uma defesa forte.",
       "steps": [
         {
@@ -234,7 +234,7 @@
     },
     "skibiDefenseUnitsList": {
       "title": "Opção acessível para novos jogadores",
-      "displayType": "Lista de Unidades de Skibi Defense",
+      "displayType": "card-list",
       "intro": "card-list",
       "units": [
         {

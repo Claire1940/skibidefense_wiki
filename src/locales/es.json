@@ -112,28 +112,28 @@
   "modules": {
     "skibiDefenseCodes": {
       "title": "Ventajas premium y desglose del valor en Robux",
-      "displayType": "Códigos de Skibi Defense",
+      "displayType": "code-cards",
       "intro": "code-cards",
       "codes": [
         {
           "code": "Canjea los últimos códigos de Skibi Defense para obtener monedas, gemas, potenciadores y objetos exclusivos gratis. Se lanzan nuevos códigos durante hitos, actualizaciones y eventos de la comunidad, así que vuelve con frecuencia.",
           "reward": "5MVISITS",
-          "status": "Recompensas gratuitas en el juego"
+          "status": "Active"
         },
         {
           "code": "Activo",
           "reward": "1MVISITS",
-          "status": "Monedas y recompensas gratis"
+          "status": "Active"
         },
         {
           "code": "Activo",
           "reward": "RELEASE",
-          "status": "Recompensas de inicio adicionales"
+          "status": "Active"
         },
         {
           "code": "---",
           "reward": "GRACIAS",
-          "status": "Recompensas de bonificación especiales"
+          "status": "Expired"
         }
       ],
       "redeemTitle": "Expirado",
@@ -155,7 +155,7 @@
     },
     "skibiDefenseBeginnerGuide": {
       "title": "Los códigos expirados ya no funcionan, pero se mantienen aquí para que sepas cuáles han sido retirados.",
-      "displayType": "Guía para principiantes de Skibi Defense",
+      "displayType": "step-by-step",
       "intro": "paso a paso",
       "steps": [
         {
@@ -184,7 +184,7 @@
     },
     "skibiDefenseUnitsTierList": {
       "title": "Observa la vista previa de la oleada y ajusta tu posicionamiento antes de las oleadas de jefes.",
-      "displayType": "Tier List de unidades de Skibi Defense",
+      "displayType": "tier-grid",
       "intro": "cuadrícula-de-niveles",
       "tiers": [
         {
@@ -291,7 +291,7 @@
     },
     "skibiDefenseUpdateGuide": {
       "title": "Guía de actualizaciones de Skibi Defense",
-      "displayType": "acordeón",
+      "displayType": "accordion",
       "intro": "Realiza un seguimiento de las actualizaciones principales de Skibi Defense, incluyendo nuevas unidades, cambios de equilibrio, eventos y contenido por tiempo limitado. Expande cada sección para ver un resumen de los cambios que afectan tu estrategia.",
       "updates": [
         {
@@ -314,7 +314,7 @@
     },
     "skibiDefenseTowerStrategy": {
       "title": "Estrategia de torres de Skibi Defense",
-      "displayType": "lista de tarjetas",
+      "displayType": "card-list",
       "intro": "Domina combinaciones de torres efectivas, estrategias de colocación y configuraciones de equipo para diferentes modos de juego. Estos consejos prácticos te ayudarán a superar las etapas más difíciles, lidiar con las oleadas de jefes y optimizar tu daño infligido.",
       "strategies": [
         {
@@ -337,7 +337,7 @@
     },
     "skibiDefenseMapsGuide": {
       "title": "Guía de mapas de Skibi Defense",
-      "displayType": "tabla",
+      "displayType": "table",
       "intro": "Cada mapa de Skibi Defense tiene su propio diseño, dificultad y patrones de enemigos. Esta guía resume los mapas disponibles, su progresión de dificultad y la estrategia recomendada según las rutas de los enemigos y el comportamiento de las oleadas.",
       "mapColumns": {
         "map": "Mapa",
