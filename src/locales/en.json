@@ -10,14 +10,7 @@
       "twitterDescription": "Skibi Defense Wiki provides units, codes, strategies, and gameplay guides for Roblox Skibi Defense. Learn upgrades, defenses, and survive waves of enemies."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
