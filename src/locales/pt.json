@@ -1,1 +1,575 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Skibi Defense Wiki - Roblox Tower Defense, Unidades e Códigos",
+      "description": "A Skibi Defense Wiki fornece unidades, códigos, estratégias e guias de gameplay para o Roblox Skibi Defense. Aprenda sobre melhorias, defesas e sobreviva a ondas de inimigos.",
+      "keywords": "Skibi Defense, Roblox, defesa de torre, Skibidi, unidades, códigos, estratégia",
+      "ogTitle": "Skibi Defense Wiki - Roblox Tower Defense, Unidades e Códigos",
+      "ogDescription": "A Skibi Defense Wiki fornece unidades, códigos, estratégias e guias de gameplay para o Roblox Skibi Defense. Aprenda sobre melhorias, defesas e sobreviva a ondas de inimigos.",
+      "twitterTitle": "Skibi Defense Wiki - Roblox Tower Defense, Unidades e Códigos",
+      "twitterDescription": "A Skibi Defense Wiki fornece unidades, códigos, estratégias e guias de gameplay para o Roblox Skibi Defense. Aprenda sobre melhorias, defesas e sobreviva a ondas de inimigos."
+    }
+  },
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "tier-list": "Tier List",
+    "units": "Unidades",
+    "updates": "Atualizações",
+    "values": "Valores"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Estratégia de Defesa de Torre no Roblox",
+    "title": "Skibi Defense Wiki",
+    "description": "O Skibi Defense é um jogo de defesa de torre do Roblox onde os jogadores posicionam unidades, melhoram defesas e lutam contra ondas de inimigos no estilo Skibidi. Crie estratégias, desbloqueie unidades mais fortes e sobreviva a batalhas intensas em mapas com habilidades únicas e ondas de chefes.",
+    "getFreeCodesCTA": "Obter Códigos Grátis",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "5M+",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "40+",
+        "label": "Unidades Disponíveis"
+      },
+      "stat3": {
+        "value": "6+",
+        "label": "Códigos Ativos"
+      },
+      "stat4": {
+        "value": "Semanal",
+        "label": "Atualizações Diárias"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Skibi Defense",
+    "description": "Posicione unidades, melhore defesas e sobreviva a ondas crescentes de inimigos no estilo Skibidi em todos os mapas nesta experiência de tower defense do Roblox."
+  },
+  "tools": {
+    "title": "Skibi Defense",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para dominar unidades, códigos, estratégias e atualizações em Skibi Defense",
+    "cards": [
+      {
+        "icon": "Presente",
+        "title": "Códigos de Skibi Defense",
+        "description": "Códigos ativos, recompensas e etapas de resgate"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guia para Iniciantes de Skibi Defense",
+        "description": "Primeiras unidades, moedas e estratégias de início de jogo"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de Unidades de Skibi Defense",
+        "description": "Melhores unidades classificadas por estágio de progressão"
+      },
+      {
+        "icon": "Users",
+        "title": "Lista de Unidades de Skibi Defense",
+        "description": "Custo, raridade, habilidades e caminhos de upgrade"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Guia de Atualizações de Skibi Defense",
+        "description": "Novo conteúdo, mudanças de balanceamento e eventos"
+      },
+      {
+        "icon": "Target",
+        "title": "Estratégia de Torres de Skibi Defense",
+        "description": "Combinações, posicionamento e composições de equipe"
+      },
+      {
+        "icon": "Map",
+        "title": "Guia de Mapas de Skibi Defense",
+        "description": "Mapas, dificuldade e padrões de inimigos"
+      },
+      {
+        "icon": "Crown",
+        "title": "Guia de Gamepasses de Skibi Defense",
+        "description": "Vantagens premium e detalhamento do valor em Robux"
+      }
+    ]
+  },
+  "modules": {
+    "skibiDefenseCodes": {
+      "title": "Códigos de Skibi Defense",
+      "displayType": "code-cards",
+      "intro": "Resgate os códigos mais recentes de Skibi Defense para obter moedas, gemas, boosts e itens exclusivos gratuitos. Novos códigos são lançados durante metas, atualizações e eventos da comunidade, então volte com frequência.",
+      "codes": [
+        {
+          "code": "5MVISITS",
+          "reward": "Recompensas gratuitas no jogo",
+          "status": "Ativo"
+        },
+        {
+          "code": "1MVISITS",
+          "reward": "Moedas e recompensas gratuitas",
+          "status": "Ativo"
+        },
+        {
+          "code": "RELEASE",
+          "reward": "Recompensas bônus para iniciantes",
+          "status": "Ativo"
+        },
+        {
+          "code": "OBRIGADO",
+          "reward": "Recompensas de bônus especiais",
+          "status": "Expirado"
+        }
+      ],
+      "redeemTitle": "Como resgatar códigos de Skibi Defense",
+      "redeemSteps": [
+        {
+          "title": "Inicie o Skibi Defense no Roblox",
+          "description": "Abra o jogo a partir do seu cliente Roblox e carregue em um lobby ou mapa ativo."
+        },
+        {
+          "title": "Abra o menu de códigos",
+          "description": "Toque no botão de Códigos na lateral da tela para abrir a caixa de texto de resgate."
+        },
+        {
+          "title": "Insira e confirme",
+          "description": "Cole o código exatamente como mostrado, clique em resgatar e suas recompensas aparecerão instantaneamente se o código ainda estiver ativo."
+        }
+      ],
+      "expiredNote": "Códigos expirados não funcionam mais, mas são mantidos aqui para que você saiba quais já foram desativados."
+    },
+    "skibiDefenseBeginnerGuide": {
+      "title": "Guia de iniciantes de Skibi Defense",
+      "displayType": "passo a passo",
+      "intro": "Novo no Skibi Defense? Este guia para iniciantes cobre as mecânicas principais, gerenciamento de moedas e estratégias de início de jogo que você precisa para posicionar unidades eficazes, sobreviver às primeiras ondas e construir uma defesa forte.",
+      "steps": [
+        {
+          "title": "Posicione suas primeiras unidades",
+          "description": "Coloque suas unidades iniciais em posições eficazes para maximizar a cobertura de dano e sobreviver às primeiras ondas sem deixar inimigos passarem."
+        },
+        {
+          "title": "Gerencie suas moedas",
+          "description": "Economize e gaste moedas com cuidado para desbloquear unidades mais fortes em vez de melhorar demais as opções iniciais fracas."
+        },
+        {
+          "title": "Melhore as unidades principais",
+          "description": "Foque recursos em unidades com melhor potencial de dano e habilidades úteis para estar pronto para as ondas posteriores."
+        },
+        {
+          "title": "Monte uma equipe equilibrada",
+          "description": "Combine causadores de dano, unidades de suporte e unidades de farm para que sua defesa possa lidar com todos os tipos de inimigos."
+        }
+      ],
+      "quickTips": [
+        "Coloque as unidades perto das curvas do caminho para que elas ataquem os inimigos por mais tempo.",
+        "Mantenha pelo menos uma unidade de farm em campo para aumentar seus rendimentos.",
+        "Não gaste tudo no início — economize moedas para melhorias no meio das ondas.",
+        "Fique atento à prévia da onda e ajuste o posicionamento antes das ondas de chefes."
+      ]
+    },
+    "skibiDefenseUnitsTierList": {
+      "title": "Tier List de unidades de Skibi Defense",
+      "displayType": "tier-grid",
+      "intro": "Esta tier list classifica as unidades de Skibi Defense por dano, utilidade, raridade e desempenho geral, divididas entre início, meio e fim de jogo para que você possa escolher as melhores opções para a sua fase atual.",
+      "tiers": [
+        {
+          "tier": "S",
+          "stage": "Fim de jogo",
+          "units": [
+            {
+              "name": "Titan TV Man",
+              "role": "Atacante de alto dano",
+              "strength": "Forte desempenho em combate com melhorias poderosas"
+            },
+            {
+              "name": "Titan Cameraman",
+              "role": "Unidade de dano pesado",
+              "strength": "Excelente opção para ondas finais difíceis"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "stage": "Meio de jogo",
+          "units": [
+            {
+              "name": "Large TV Man",
+              "role": "---",
+              "strength": "Unidade de dano em área"
+            },
+            {
+              "name": "Ótima para limpar grupos de inimigos",
+              "role": "Large Cameraman",
+              "strength": "Atacante equilibrado"
+            }
+          ]
+        },
+        {
+          "tier": "Dano confiável nas ondas de meio de jogo",
+          "stage": "B",
+          "units": [
+            {
+              "name": "Início de jogo",
+              "role": "Cameraman",
+              "strength": "Unidade de dano inicial"
+            }
+          ]
+        }
+      ]
+    },
+    "skibiDefenseUnitsList": {
+      "title": "Opção acessível para novos jogadores",
+      "displayType": "Lista de Unidades de Skibi Defense",
+      "intro": "card-list",
+      "units": [
+        {
+          "name": "Explore a lista completa de unidades de Skibi Defense com custo, raridade, função, habilidades e caminhos de melhoria. Use este banco de dados para comparar torres antes de gastar recursos e planejar a equipe certa para cada mapa.",
+          "rarity": "Cameraman",
+          "role": "Comum",
+          "abilities": [
+            "Dano Básico",
+            "Ataques de alvo único"
+          ],
+          "upgradePath": "Baixo custo de posicionamento"
+        },
+        {
+          "name": "Melhora o dano e a velocidade de ataque através de melhorias",
+          "rarity": "Large Cameraman",
+          "role": "Rara",
+          "abilities": [
+            "Dano Pesado",
+            "Maior saída de dano"
+          ],
+          "upgradePath": "Foco em alvo único mais forte"
+        },
+        {
+          "name": "Desbloqueia atributos de combate mais fortes",
+          "rarity": "Large TV Man",
+          "role": "Rara",
+          "abilities": [
+            "Dano em Área",
+            "Controle de grupo de inimigos"
+          ],
+          "upgradePath": "Eficaz contra ondas"
+        },
+        {
+          "name": "Dano em área aprimorado e melhorias de utilidade",
+          "rarity": "Titan Cameraman",
+          "role": "Lendária",
+          "abilities": [
+            "Dano de Fim de Jogo",
+            "Ataques poderosos"
+          ],
+          "upgradePath": "Alta durabilidade"
+        },
+        {
+          "name": "Melhorias avançadas de titã para ondas tardias",
+          "rarity": "Titan TV Man",
+          "role": "Lendária",
+          "abilities": [
+            "Habilidades de alto dano",
+            "Desempenho em ondas de chefes"
+          ],
+          "upgradePath": "Melhorias máximas de combate"
+        }
+      ]
+    },
+    "skibiDefenseUpdateGuide": {
+      "title": "Guia de Atualizações do Skibi Defense",
+      "displayType": "accordion",
+      "intro": "Acompanhe as principais atualizações do Skibi Defense, incluindo novas unidades, ajustes de equilíbrio, eventos e conteúdo por tempo limitado. Expanda cada seção para ver um resumo das alterações que afetam a sua estratégia.",
+      "updates": [
+        {
+          "title": "Atualizações de Novo Conteúdo",
+          "content": "Patches recentes introduzem novas unidades, missões de evento e recompensas por tempo limitado que expandem suas opções em cada mapa."
+        },
+        {
+          "title": "Ajustes de Equilíbrio",
+          "content": "Atualizações no dano das unidades, tempos de recarga e escalonamento de inimigos mantêm o meta atualizado e melhoram o equilíbrio geral do jogo."
+        },
+        {
+          "title": "Rotações de Eventos",
+          "content": "Eventos sazonais e por tempo limitado oferecem recompensas de bônus, unidades exclusivas e itens cosméticos especiais."
+        },
+        {
+          "title": "Correções de Bugs e Melhorias",
+          "content": "Melhorias gerais de estabilidade e correções focam em problemas de jogabilidade e no desempenho geral."
+        }
+      ]
+    },
+    "skibiDefenseTowerStrategy": {
+      "title": "Estratégia de Torres do Skibi Defense",
+      "displayType": "card-list",
+      "intro": "Domine combinações eficazes de torres, estratégias de posicionamento e composições de equipe para diferentes modos de jogo. Essas dicas práticas ajudam você a passar de fases mais difíceis, lidar com ondas de chefes e otimizar sua produção de dano.",
+      "strategies": [
+        {
+          "title": "Setup Equilibrado",
+          "description": "Misture torres de área de efeito, dano de alvo único e unidades de suporte para uma progressão estável em todas as fases."
+        },
+        {
+          "title": "Defesa contra Rush no Início do Jogo",
+          "description": "Implante unidades rápidas e de baixo custo para lidar com as ondas iniciais e construir sua economia com segurança antes de progredir."
+        },
+        {
+          "title": "Estratégia de Contra-ataque a Chefes",
+          "description": "Combine torres de alto dano de alvo único com efeitos de lentidão ou atordoamento para derrubar inimigos com muita vida."
+        },
+        {
+          "title": "Estratégia de Controle de Mapa",
+          "description": "Foque o posicionamento em pontos de estrangulamento e na cobertura de caminhos longos para máxima eficiência de dano."
+        }
+      ]
+    },
+    "skibiDefenseMapsGuide": {
+      "title": "Guia de Mapas do Skibi Defense",
+      "displayType": "table",
+      "intro": "Cada mapa do Skibi Defense tem seu próprio layout, dificuldade e padrões de inimigos. Este guia resume os mapas disponíveis, sua progressão de dificuldade e a estratégia recomendada com base nas rotas dos inimigos e no comportamento das ondas.",
+      "mapColumns": {
+        "map": "Mapa",
+        "difficulty": "Dificuldade",
+        "enemyPattern": "Padrão de Inimigos",
+        "recommendedStrategy": "Estratégia Recomendada"
+      },
+      "maps": [
+        {
+          "map": "Mapa de Iniciante",
+          "difficulty": "Fácil",
+          "enemyPattern": "Ondas rápidas com pouca vida",
+          "recommendedStrategy": "Defesa inicial focada em economia com torres de baixo custo"
+        },
+        {
+          "map": "Mapa de Mid-Game",
+          "difficulty": "Normal",
+          "enemyPattern": "Inimigos terrestres e de longo alcance misturados",
+          "recommendedStrategy": "Posicionamento equilibrado de torres com suporte de dano em área"
+        },
+        {
+          "map": "Mapa Avançado",
+          "difficulty": "Difícil",
+          "enemyPattern": "Inimigos com HP alto e unidades blindadas",
+          "recommendedStrategy": "Torres de alto DPS de alvo único e efeitos de atordoamento"
+        },
+        {
+          "map": "Mapa de Endgame",
+          "difficulty": "Insano",
+          "enemyPattern": "Ondas rápidas de chefes e inimigos de elite",
+          "recommendedStrategy": "Loadout totalmente otimizado com combinações baseadas em sinergia"
+        }
+      ]
+    },
+    "skibiDefenseGamepass": {
+      "title": "Guia de Gamepass de Skibi Defense",
+      "displayType": "card-list",
+      "intro": "Compare cada gamepass e recurso premium de Skibi Defense antes de gastar Robux. Este guia explica o que cada passe desbloqueia e se vale a pena para o seu estilo de jogo.",
+      "gamepasses": [
+        {
+          "title": "Passe de Boost Inicial",
+          "description": "Acelera os recursos e o progresso no início do jogo para uma configuração inicial mais rápida."
+        },
+        {
+          "title": "Slot de Loadout Extra",
+          "description": "Desbloqueia configurações adicionais de loadout de torres para uma criação de estratégia mais flexível."
+        },
+        {
+          "title": "Passe de Recompensas VIP",
+          "description": "Concede recompensas bônus no jogo e melhora a eficiência da progressão ao longo do tempo."
+        },
+        {
+          "title": "Pacote de Upgrade Cosmético",
+          "description": "Desbloqueia melhorias visuais e opções de personalização que não afetam a jogabilidade."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre o Skibi Defense",
+    "questions": [
+      {
+        "question": "O que é Skibi Defense?",
+        "answer": "Skibi Defense é um jogo de tower defense no Roblox onde você implanta unidades, melhora defesas e sobrevive a ondas de inimigos no estilo Skibidi em vários mapas com habilidades únicas e ondas de chefes."
+      },
+      {
+        "question": "Como resgato códigos no Skibi Defense?",
+        "answer": "Inicie o Skibi Defense no Roblox, abra o menu de Códigos na lateral da tela, cole um código ativo na caixa de texto e confirme para resgatar moedas, gemas, boosts e itens exclusivos instantaneamente."
+      },
+      {
+        "question": "Quais são as melhores unidades no Skibi Defense?",
+        "answer": "As unidades mais fortes do Skibi Defense incluem Titan TV Man e Titan Cameraman para dano de fim de jogo, Large TV Man para controle de área e iniciantes acessíveis como Cameraman para as primeiras ondas. Confira a tier list para o ranking completo."
+      },
+      {
+        "question": "Skibi Defense é gratuito para jogar no Roblox?",
+        "answer": "Sim. Skibi Defense é gratuito para jogar no Roblox. Gamepasses opcionais e recursos premium estão disponíveis por Robux, mas não são necessários para aproveitar a experiência completa de tower defense."
+      },
+      {
+        "question": "Com que frequência o Skibi Defense é atualizado?",
+        "answer": "O Skibi Defense recebe atualizações regulares que adicionam novas unidades, mudanças de balanceamento, eventos e conteúdo por tempo limitado. Novos códigos também são lançados durante marcos e eventos da comunidade."
+      },
+      {
+        "question": "Qual é a melhor estratégia para ondas de chefes no Skibi Defense?",
+        "answer": "Para ondas de chefes no Skibi Defense, combine torres de alto dano de alvo único com efeitos de lentidão ou atordoamento, foque o posicionamento em pontos de estrangulamento e guarde dinheiro suficiente para melhorias no meio da onda para lidar com inimigos de elite."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para dominar o Skibi Defense?",
+    "description": "Mergulhe no Skibi Defense no Roblox — implante unidades, melhore defesas e sobreviva a ondas infinitas de inimigos no estilo Skibidi!",
+    "joinCommunity": "Junte-se à Comunidade do Roblox",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Skibi Defense",
+    "description": "Seu hub de recursos completo para unidades, upgrades, códigos, ondas, inimigos, mapas e guias de estratégia de tower defense de Skibi Defense.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Avisos Legais",
+    "discord": "Comunidade Roblox",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Reddit",
+    "steamStore": "Jogue no Roblox",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Skibi Defense Wiki. Não afiliado aos desenvolvedores de Skibi Defense ou à Roblox Corporation.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Skibi Defense",
+      "description": "Códigos ativos de Skibi Defense para créditos grátis, boosts e caixas exclusivas. Resgate os códigos funcionais mais recentes antes que expirem.",
+      "metaTitle": "Códigos de Skibi Defense (Julho de 2026) - Créditos e Boosts Grátis",
+      "metaDescription": "Resgate os códigos de Skibi Defense funcionais mais recentes para créditos grátis, boosts e caixas exclusivas. Atualizado em julho de 2026 com códigos ativos verificados.",
+      "categoryLabel": "RESGATAR CÓDIGOS",
+      "whatIs": "O que são códigos de Skibi Defense?",
+      "whatIsDescription": "Os códigos de Skibi Defense são códigos promocionais lançados pelos desenvolvedores que concedem recompensas no jogo, como créditos, boosts e caixas de unidades exclusivas. Os códigos são distribuídos por meio de atualizações oficiais, canais sociais e eventos de marcos, e cada código só pode ser resgatado uma vez por conta.",
+      "why": "Por que usar códigos de Skibi Defense?",
+      "whySteps": {
+        "step1Title": "Boost de Progressão Grátis",
+        "step1Description": "Os códigos resgatados concedem créditos e boosts que permitem desbloquear e melhorar unidades mais rapidamente, sem precisar enfrentar hordas repetidamente.",
+        "step2Title": "Caixas Exclusivas",
+        "step2Description": "Códigos por tempo limitado desbloqueiam caixas de unidades exclusivas que não podem ser obtidas através da jogabilidade normal.",
+        "step3Title": "Mantenha-se Atualizado",
+        "step3Description": "Os códigos expiram com o tempo, então verificar regularmente garante que você nunca perca recompensas gratuitas."
+      },
+      "featured": "Códigos em Destaque",
+      "all": "Todos os Códigos"
+    },
+    "guide": {
+      "title": "Guias de Skibi Defense",
+      "description": "Guias completos de Skibi Defense cobrindo dicas para iniciantes, estratégias de capítulos, criação, traços e progressão para todos os modos.",
+      "metaTitle": "Guias de Skibi Defense - Dicas para Iniciantes, Estratégia de Capítulos e Progressão",
+      "metaDescription": "Domine o Skibi Defense com guias detalhados sobre estratégias para iniciantes, passo a passo de capítulos, criação, traços e progressão para os modos infinito e pesadelo.",
+      "categoryLabel": "GUIAS DE ESTRATÉGIA",
+      "whatIs": "O que são os Guias de Skibi Defense?",
+      "whatIsDescription": "Os guias de Skibi Defense cobrem todos os aspectos da jogabilidade, desde o posicionamento da sua primeira unidade até a conclusão dos capítulos mais difíceis e da dificuldade pesadelo. Cada guia detalha mecânicas de hordas, conjuntos de unidades recomendados, farm de moedas e estratégias de chefes para que você possa progredir de forma eficiente.",
+      "why": "Por que ler os Guias de Skibi Defense?",
+      "whySteps": {
+        "step1Title": "Vença Capítulos Difíceis",
+        "step1Description": "Estratégias capítulo a capítulo explicam as hordas de inimigos, padrões de chefes e as composições de unidades que vencem de forma consistente.",
+        "step2Title": "Progrida Mais Rápido",
+        "step2Description": "Aprenda as maneiras mais eficientes de farmar créditos, desbloquear unidades e montar uma equipe forte sem desperdiçar esforço.",
+        "step3Title": "Domine Todos os Modos",
+        "step3Description": "Do modo infinito à dificuldade pesadelo, os guias cobrem as táticas avançadas necessárias para superar seus limites."
+      },
+      "featured": "Guias em Destaque",
+      "all": "Todos os Guias"
+    },
+    "tier-list": {
+      "title": "Tier List de Skibi Defense",
+      "description": "Tier list de Skibi Defense classificando cada torre, titã e unidade por poder, custo e valor no meta para ajudar você a montar o melhor loadout.",
+      "metaTitle": "Tier List de Skibi Defense - Melhores Torres, Titãs e Unidades Ranqueadas",
+      "metaDescription": "Encontre as melhores unidades em Skibi Defense com nossa tier list completa classificando torres, titãs e unidades do meta por poder, valor e desempenho.",
+      "categoryLabel": "CLASSIFICAÇÕES DE TIERS",
+      "whatIs": "O que é a Tier List de Skibi Defense?",
+      "whatIsDescription": "A tier list de Skibi Defense classifica cada unidade do jogo por força geral, custo-benefício e relevância no meta atual. As classificações são baseadas no dano causado, escalonamento de melhorias, cobertura de ondas e desempenho nos capítulos e no modo infinito, ajudando você a priorizar quais unidades desbloquear e investir.",
+      "why": "Por que usar a Tier List de Skibi Defense?",
+      "whySteps": {
+        "step1Title": "Monte o Melhor Loadout",
+        "step1Description": "As classificações de tier mostram quais unidades valem seus créditos e quais ignorar, para que você nunca desperdice recursos em escolhas fracas.",
+        "step2Title": "Entenda o Meta",
+        "step2Description": "A tier list reflete o meta atual, destacando as unidades mais fortes para capítulos, titãs e modo infinito.",
+        "step3Title": "Escolha o Inicial Certo",
+        "step3Description": "Recomendações de tiers iniciais e econômicos ajudam novos jogadores a escolher unidades que os carregarão durante o início do jogo."
+      },
+      "featured": "Tier Lists em Destaque",
+      "all": "Todas as Tier Lists"
+    },
+    "units": {
+      "title": "Unidades de Skibi Defense",
+      "description": "Banco de dados completo de cada unidade, torre e titã de Skibi Defense com atributos, custos de melhoria, habilidades e requisitos de desbloqueio.",
+      "metaTitle": "Unidades e Torres de Skibi Defense - Atributos, Melhorias e Habilidades",
+      "metaDescription": "Navegue por cada unidade, torre, titã e unidade secreta de Skibi Defense com atributos completos, caminhos de melhoria, habilidades e requisitos de desbloqueio.",
+      "categoryLabel": "BANCO DE DADOS DE UNIDADES",
+      "whatIs": "O que são as Unidades de Skibi Defense?",
+      "whatIsDescription": "As unidades de Skibi Defense são os personagens e estruturas posicionáveis que você coloca no mapa para lutar contra ondas de inimigos Skibidi. Cada unidade possui atributos, habilidades, caminhos de melhoria e custos únicos, variando de starters comuns a titãs poderosos e unidades secretas raras que definem as estratégias de fim de jogo.",
+      "why": "Por que estudar as Unidades de Skibi Defense?",
+      "whySteps": {
+        "step1Title": "Conheça Cada Atributo",
+        "step1Description": "Páginas detalhadas de unidades detalham dano, alcance, cadência de tiro, custos de melhoria e habilidades especiais para que você possa comparar as opções diretamente.",
+        "step2Title": "Planeje suas Melhorias",
+        "step2Description": "Entender o caminho de melhoria de cada unidade ajuda você a gastar créditos onde eles mais importam para sua estratégia.",
+        "step3Title": "Descubra Unidades Secretas",
+        "step3Description": "Aprenda como desbloquear unidades ocultas e supremas que podem, sozinhas, virar batalhas difíceis a seu favor."
+      },
+      "featured": "Unidades em Destaque",
+      "all": "Todas as Unidades"
+    },
+    "updates": {
+      "title": "Atualizações de Skibi Defense",
+      "description": "Logs de atualização mais recentes de Skibi Defense, notas de patch, vazamentos e novos conteúdos, incluindo unidades, mapas e mudanças de balanceamento.",
+      "metaTitle": "Atualizações de Skibi Defense - Notas de Patch, Logs de Atualização e Vazamentos",
+      "metaDescription": "Acompanhe todas as atualizações de Skibi Defense com notas de atualização completas, registros de atualização, novas unidades, mudanças de balanceamento, vazamentos e conteúdos futuros.",
+      "categoryLabel": "REGISTROS DE ATUALIZAÇÃO",
+      "whatIs": "O que são as atualizações de Skibi Defense?",
+      "whatIsDescription": "As atualizações de Skibi Defense trazem novas unidades, mapas, capítulos, mudanças de balanceamento e melhorias de qualidade de vida para o jogo. Os registros de atualização documentam tudo o que foi adicionado, alterado ou corrigido em cada versão, enquanto os vazamentos dão pistas sobre o conteúdo futuro antes do lançamento, para que os jogadores possam preparar suas estratégias com antecedência.",
+      "why": "Por que acompanhar as atualizações de Skibi Defense?",
+      "whySteps": {
+        "step1Title": "Fique à frente do Meta",
+        "step1Description": "Mudanças de balanceamento e novas unidades mudam o meta constantemente — acompanhar as atualizações mantém seu loadout competitivo.",
+        "step2Title": "Planeje novos conteúdos",
+        "step2Description": "Saber quais unidades e mapas estão por vir ajuda você a economizar créditos e preparar estratégias antes do lançamento.",
+        "step3Title": "Descubra vazamentos mais cedo",
+        "step3Description": "A cobertura de vazamentos revela o conteúdo futuro para que você possa se antecipar às mudanças e ajustar sua equipe antes que as atualizações fiquem ativas."
+      },
+      "featured": "Atualizações em destaque",
+      "all": "Todas as atualizações"
+    },
+    "values": {
+      "title": "Lista de valores de Skibi Defense",
+      "description": "Lista de valores de Skibi Defense que acompanha o valor de troca e raridade de cada unidade, caixa e item para ajudar você a negociar de forma justa.",
+      "metaTitle": "Lista de valores de Skibi Defense - Valores de troca de unidades e itens",
+      "metaDescription": "Confira a lista de valores mais recente de Skibi Defense para obter valores de troca precisos de unidades, caixas e itens com base na raridade, demanda e meta.",
+      "categoryLabel": "VALORES DE TROCA",
+      "whatIs": "O que é a lista de valores de Skibi Defense?",
+      "whatIsDescription": "A lista de valores de Skibi Defense acompanha o valor relativo de troca de unidades, caixas e itens com base na raridade, demanda e relevância atual no meta. Os valores ajudam os jogadores a comparar ofertas, identificar trocas justas e entender quais unidades mantêm valor a longo prazo em comparação com aquelas que oscilam com as atualizações de balanceamento.",
+      "why": "Por que usar a lista de valores de Skibi Defense?",
+      "whySteps": {
+        "step1Title": "Troque de forma justa",
+        "step1Description": "Valores precisos evitam que você aceite trocas ruins ou faça ofertas muito baixas para outros jogadores por unidades raras.",
+        "step2Title": "Encontre bons negócios",
+        "step2Description": "Saber a demanda em tempo real ajuda você a reconhecer ofertas baratas e unidades de alto valor antes que os preços subam.",
+        "step3Title": "Proteja seu inventário",
+        "step3Description": "Entender quais unidades mantêm um valor estável ajuda você a manter uma equipe que vale a pena trocar, mesmo após mudanças no meta."
+      },
+      "featured": "Valores em destaque",
+      "all": "Todos os valores"
+    }
+  }
+}
