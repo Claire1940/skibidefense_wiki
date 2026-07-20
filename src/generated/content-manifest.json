@@ -8,12 +8,20 @@
     ],
     "guide": [
       {
+        "slug": "skibi-defense-armada-quest",
+        "file": "skibi-defense-armada-quest"
+      },
+      {
         "slug": "skibi-defense-beginner-guide",
         "file": "skibi-defense-beginner-guide"
       },
       {
         "slug": "skibi-defense-best-way-to-grind-credits",
         "file": "skibi-defense-best-way-to-grind-credits"
+      },
+      {
+        "slug": "skibi-defense-boss-rush",
+        "file": "skibi-defense-boss-rush"
       },
       {
         "slug": "skibi-defense-chapter-6-strategy",
@@ -36,12 +44,20 @@
         "file": "skibi-defense-crafting-guide"
       },
       {
+        "slug": "skibi-defense-crafting",
+        "file": "skibi-defense-crafting"
+      },
+      {
         "slug": "skibi-defense-endless-mode-guide",
         "file": "skibi-defense-endless-mode-guide"
       },
       {
         "slug": "skibi-defense-how-to-beat-the-darkness",
         "file": "skibi-defense-how-to-beat-the-darkness"
+      },
+      {
+        "slug": "skibi-defense-how-to-get-a-crate",
+        "file": "skibi-defense-how-to-get-a-crate"
       },
       {
         "slug": "skibi-defense-multiverse-chapter-2-strategy",
@@ -104,6 +120,22 @@
         "file": "skibi-defense-all-units"
       },
       {
+        "slug": "skibi-defense-best-early-game-units",
+        "file": "skibi-defense-best-early-game-units"
+      },
+      {
+        "slug": "skibi-defense-best-farm-unit",
+        "file": "skibi-defense-best-farm-unit"
+      },
+      {
+        "slug": "skibi-defense-best-units",
+        "file": "skibi-defense-best-units"
+      },
+      {
+        "slug": "skibi-defense-corrupted-juggernaut",
+        "file": "skibi-defense-corrupted-juggernaut"
+      },
+      {
         "slug": "skibi-defense-jeffrey",
         "file": "skibi-defense-jeffrey"
       },
@@ -142,6 +174,18 @@
         "file": "skibi-defense-armada-update"
       },
       {
+        "slug": "skibi-defense-chapter-7",
+        "file": "skibi-defense-chapter-7"
+      },
+      {
+        "slug": "skibi-defense-chapter-8",
+        "file": "skibi-defense-chapter-8"
+      },
+      {
+        "slug": "skibi-defense-chapter-9",
+        "file": "skibi-defense-chapter-9"
+      },
+      {
         "slug": "skibi-defense-leaks",
         "file": "skibi-defense-leaks"
       },
@@ -162,6 +206,10 @@
         "file": "skibi-defense-update"
       },
       {
+        "slug": "skibi-defense-updates",
+        "file": "skibi-defense-updates"
+      },
+      {
         "slug": "skibi-defense-void-update",
         "file": "skibi-defense-void-update"
       }
@@ -170,6 +218,10 @@
       {
         "slug": "skibi-defense-value",
         "file": "skibi-defense-value"
+      },
+      {
+        "slug": "skibi-defense-values",
+        "file": "skibi-defense-values"
       }
     ]
   },
@@ -182,12 +234,20 @@
     ],
     "guide": [
       {
+        "slug": "skibi-defense-armada-quest",
+        "file": "skibi-defense-armada-quest"
+      },
+      {
         "slug": "skibi-defense-beginner-guide",
         "file": "skibi-defense-beginner-guide"
       },
       {
         "slug": "skibi-defense-best-way-to-grind-credits",
         "file": "skibi-defense-best-way-to-grind-credits"
+      },
+      {
+        "slug": "skibi-defense-boss-rush",
+        "file": "skibi-defense-boss-rush"
       },
       {
         "slug": "skibi-defense-chapter-6-strategy",
@@ -210,12 +270,20 @@
         "file": "skibi-defense-crafting-guide"
       },
       {
+        "slug": "skibi-defense-crafting",
+        "file": "skibi-defense-crafting"
+      },
+      {
         "slug": "skibi-defense-endless-mode-guide",
         "file": "skibi-defense-endless-mode-guide"
       },
       {
         "slug": "skibi-defense-how-to-beat-the-darkness",
         "file": "skibi-defense-how-to-beat-the-darkness"
+      },
+      {
+        "slug": "skibi-defense-how-to-get-a-crate",
+        "file": "skibi-defense-how-to-get-a-crate"
       },
       {
         "slug": "skibi-defense-multiverse-chapter-2-strategy",
@@ -278,6 +346,18 @@
         "file": "skibi-defense-all-units"
       },
       {
+        "slug": "skibi-defense-best-early-game-units",
+        "file": "skibi-defense-best-early-game-units"
+      },
+      {
+        "slug": "skibi-defense-best-farm-unit",
+        "file": "skibi-defense-best-farm-unit"
+      },
+      {
+        "slug": "skibi-defense-corrupted-juggernaut",
+        "file": "skibi-defense-corrupted-juggernaut"
+      },
+      {
         "slug": "skibi-defense-jeffrey",
         "file": "skibi-defense-jeffrey"
       },
@@ -316,6 +396,18 @@
         "file": "skibi-defense-armada-update"
       },
       {
+        "slug": "skibi-defense-chapter-7",
+        "file": "skibi-defense-chapter-7"
+      },
+      {
+        "slug": "skibi-defense-chapter-8",
+        "file": "skibi-defense-chapter-8"
+      },
+      {
+        "slug": "skibi-defense-chapter-9",
+        "file": "skibi-defense-chapter-9"
+      },
+      {
         "slug": "skibi-defense-leaks",
         "file": "skibi-defense-leaks"
       },
@@ -336,6 +428,10 @@
         "file": "skibi-defense-update"
       },
       {
+        "slug": "skibi-defense-updates",
+        "file": "skibi-defense-updates"
+      },
+      {
         "slug": "skibi-defense-void-update",
         "file": "skibi-defense-void-update"
       }
@@ -344,6 +440,10 @@
       {
         "slug": "skibi-defense-value",
         "file": "skibi-defense-value"
+      },
+      {
+        "slug": "skibi-defense-values",
+        "file": "skibi-defense-values"
       }
     ]
   },
@@ -356,12 +456,20 @@
     ],
     "guide": [
       {
+        "slug": "skibi-defense-armada-quest",
+        "file": "skibi-defense-armada-quest"
+      },
+      {
         "slug": "skibi-defense-beginner-guide",
         "file": "skibi-defense-beginner-guide"
       },
       {
         "slug": "skibi-defense-best-way-to-grind-credits",
         "file": "skibi-defense-best-way-to-grind-credits"
+      },
+      {
+        "slug": "skibi-defense-boss-rush",
+        "file": "skibi-defense-boss-rush"
       },
       {
         "slug": "skibi-defense-chapter-6-strategy",
@@ -384,12 +492,20 @@
         "file": "skibi-defense-crafting-guide"
       },
       {
+        "slug": "skibi-defense-crafting",
+        "file": "skibi-defense-crafting"
+      },
+      {
         "slug": "skibi-defense-endless-mode-guide",
         "file": "skibi-defense-endless-mode-guide"
       },
       {
         "slug": "skibi-defense-how-to-beat-the-darkness",
         "file": "skibi-defense-how-to-beat-the-darkness"
+      },
+      {
+        "slug": "skibi-defense-how-to-get-a-crate",
+        "file": "skibi-defense-how-to-get-a-crate"
       },
       {
         "slug": "skibi-defense-multiverse-chapter-2-strategy",
@@ -452,6 +568,18 @@
         "file": "skibi-defense-all-units"
       },
       {
+        "slug": "skibi-defense-best-early-game-units",
+        "file": "skibi-defense-best-early-game-units"
+      },
+      {
+        "slug": "skibi-defense-best-farm-unit",
+        "file": "skibi-defense-best-farm-unit"
+      },
+      {
+        "slug": "skibi-defense-corrupted-juggernaut",
+        "file": "skibi-defense-corrupted-juggernaut"
+      },
+      {
         "slug": "skibi-defense-jeffrey",
         "file": "skibi-defense-jeffrey"
       },
@@ -490,6 +618,18 @@
         "file": "skibi-defense-armada-update"
       },
       {
+        "slug": "skibi-defense-chapter-7",
+        "file": "skibi-defense-chapter-7"
+      },
+      {
+        "slug": "skibi-defense-chapter-8",
+        "file": "skibi-defense-chapter-8"
+      },
+      {
+        "slug": "skibi-defense-chapter-9",
+        "file": "skibi-defense-chapter-9"
+      },
+      {
         "slug": "skibi-defense-leaks",
         "file": "skibi-defense-leaks"
       },
@@ -510,6 +650,10 @@
         "file": "skibi-defense-update"
       },
       {
+        "slug": "skibi-defense-updates",
+        "file": "skibi-defense-updates"
+      },
+      {
         "slug": "skibi-defense-void-update",
         "file": "skibi-defense-void-update"
       }
@@ -518,6 +662,10 @@
       {
         "slug": "skibi-defense-value",
         "file": "skibi-defense-value"
+      },
+      {
+        "slug": "skibi-defense-values",
+        "file": "skibi-defense-values"
       }
     ]
   }
