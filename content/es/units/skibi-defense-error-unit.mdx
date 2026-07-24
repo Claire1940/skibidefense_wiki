@@ -1,0 +1,114 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "Skibi Defense: Lista de Niveles de Unidades Últimas",
+  description: "Descubre las unidades de nivel superior en Skibi Defense y aprende sus fortalezas para construir la estrategia de defensa perfecta.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Skibi+Defense+Tier+List",
+  date: "2026-07-24",
+  author: "Equipo de Wiki de Skibi Defense"
+};
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Skibi Defense
+- **Mecánica clave**: Mejoras de unidades y estrategia de defensa
+- **Mejor estrategia**: Selecciona unidades basándote en su rareza, daño y habilidades
+- **Consejo crucial**: Prioriza las unidades que sobresalen en las etapas posteriores del juego
+- **Elección superior**: Considera al Titan TV Man por su alto rendimiento de daño
+</Callout>
+
+<Section icon={Swords} title="Introducción a las Unidades de Skibi Defense">
+Skibi Defense ofrece una variedad diversa de unidades para que los jugadores las desplieguen y actualicen. Cada unidad tiene habilidades únicas y contribuye a diferentes aspectos de la estrategia de defensa.
+</Section>
+
+<Section icon={Target} title="Resumen de la Lista de Niveles">
+La Lista de Niveles clasifica las unidades basándose en su rendimiento general, considerando factores como el rendimiento de daño, rareza y efectividad en diferentes etapas del juego.
+</Section>
+
+<Section icon={Trophy} title="Unidades de Nivel Superior">
+<Callout type="tip" title="Unidades de Nivel Superior">
+Estas unidades son las más fuertes en Skibi Defense y se recomiendan para los jugadores que buscan dominar las etapas posteriores del juego.
+</Callout>
+<CardGrid cols={3}>
+  <Card title="Titan TV Man">
+    - **Rol**: Atacante de alto daño
+    - **Fortaleza**: Rendimiento de combate fuerte y actualizaciones poderosas
+  </Card>
+  <Card title="Titan Cameraman">
+    - **Rol**: Unidad de daño pesado
+    - **Fortaleza**: Excelente para oleadas difíciles
+  </Card>
+  <Card title="Large TV Man">
+    - **Rol**: Unidad de daño en área
+    - **Fortaleza**: Útil para limpiar grupos de enemigos
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Shield} title="Unidades de Nivel Medio">
+Estas unidades son versátiles y se desempeñan bien en diversas etapas del juego.
+<Callout type="info" title="Unidades de Nivel Medio">
+Las unidades de nivel medio son una excelente opción para los jugadores que desean una estrategia de defensa equilibrada.
+</Callout>
+<CardGrid cols={3}>
+  <Card title="Large Cameraman">
+    - **Rol**: Atacante equilibrado
+    - **Fortaleza**: Opción de daño confiable
+  </Card>
+  <Card title="Cameraman">
+    - **Rol**: Unidad de daño de inicio
+    - **Fortaleza**: Opción accesible para nuevos jugadores
+  </Card>
+  <Card title="Small TV Man">
+    - **Rol**: Daño en área básico
+    - **Fortaleza**: Bueno para oleadas de inicio del juego
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Sparkles} title="Unidades de Nivel Inicial">
+Estas unidades son ideales para principiantes y jugadores que están comenzando su estrategia de defensa.
+<Callout type="warning" title="Unidades de Nivel Inicial">
+Las unidades de nivel inicial deben utilizarse estratégicamente para construir recursos para las etapas posteriores.
+</Callout>
+<CardGrid cols={3}>
+  <Card title="Small Cameraman">
+    - **Rol**: Daño básico
+    - **Fortaleza**: Fácil de desplegar y actualizar
+  </Card>
+  <Card title="Basic Tower">
+    - **Rol**: Defensa básica
+    - **Fortaleza**: Fácil de usar y efectivo contra oleadas de inicio
+  </Card>
+  <Card title="Basic Support Unit">
+    - **Rol**: Apoyo básico
+    - **Fortaleza**: Proporciona bonificaciones menores a otras unidades
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Map} title="Conclusión">
+Construir una defensa fuerte en Skibi Defense requiere seleccionar las unidades adecuadas basándose en sus fortalezas y el progreso del juego. Usa la Lista de Niveles como guía para crear una estrategia de defensa equilibrada y efectiva.
+</Section>
+
+<FAQ items={[
+  {
+    question: "¿Cómo puedo actualizar mis unidades?",
+    answer: "Las actualizaciones se pueden comprar utilizando la moneda del juego. Prioriza las unidades que son más efectivas en las etapas posteriores del juego."
+  },
+  {
+    question: "¿Cuál es la unidad mejor para el juego en solitario?",
+    answer: "Se recomienda altamente al Titan TV Man para el juego en solitario debido a su alto rendimiento de daño y actualizaciones poderosas."
+  },
+  {
+    question: "¿Puedo cambiar mi estrategia a medida que avanza el juego?",
+    answer: "¡Absolutamente! A medida que avances, puedes ajustar tu estrategia cambiando las unidades y actualizándolas para adaptarse mejor a tu estilo de juego."
+  }
+]} />

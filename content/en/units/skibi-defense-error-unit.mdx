@@ -1,0 +1,114 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Skibi Defense: Ultimate Unit Tier List",
+  description: "Discover the top-tier units in Skibi Defense and learn their strengths to build the perfect defense strategy.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/059669/fff?text=Skibi+Defense+Tier+List",
+  date: "2026-07-24",
+  author: "skibi defense Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Skibi Defense
+- **Key mechanic**: Unit upgrades and defense strategy
+- **Best strategy**: Select units based on their rarity, damage, and abilities
+- **Critical tip**: Prioritize units that excel in later game stages
+- **Top choice**: Consider the Titan TV Man for its high damage output
+</Callout>
+
+<Section icon={Swords} title="Introduction to Skibi Defense Units">
+Skibi Defense offers a diverse range of units for players to deploy and upgrade. Each unit has unique abilities and contributes to different aspects of the defense strategy.
+</Section>
+
+<Section icon={Target} title="Tier List Overview">
+The Tier List ranks the units based on their overall performance, considering factors like damage output, rarity, and effectiveness in different game stages.
+</Section>
+
+<Section icon={Trophy} title="Top Tier Units">
+<Callout type="tip" title="Top Tier Units">
+These units are the strongest in Skibi Defense and are recommended for players looking to dominate the later stages of the game.
+</Callout>
+<CardGrid cols={3}>
+  <Card title="Titan TV Man">
+    - **Role**: High damage attacker
+    - **Strength**: Strong combat performance and powerful upgrades
+  </Card>
+  <Card title="Titan Cameraman">
+    - **Role**: Heavy damage unit
+    - **Strength**: Excellent for difficult waves
+  </Card>
+  <Card title="Large TV Man">
+    - **Role**: Area damage unit
+    - **Strength**: Useful for clearing groups of enemies
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Shield} title="Mid Tier Units">
+These units are versatile and perform well across various stages of the game.
+<Callout type="info" title="Mid Tier Units">
+Mid-tier units are a great choice for players who want a balanced defense strategy.
+</Callout>
+<CardGrid cols={3}>
+  <Card title="Large Cameraman">
+    - **Role**: Balanced attacker
+    - **Strength**: Reliable damage option
+  </Card>
+  <Card title="Cameraman">
+    - **Role**: Starter damage unit
+    - **Strength**: Accessible option for new players
+  </Card>
+  <Card title="Small TV Man">
+    - **Role**: Basic area damage
+    - **Strength**: Good for early game waves
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Sparkles} title="Early Tier Units">
+These units are ideal for beginners and players who are just starting their defense strategy.
+<Callout type="warning" title="Early Tier Units">
+Early-tier units should be used strategically to build up resources for later stages.
+</Callout>
+<CardGrid cols={3}>
+  <Card title="Small Cameraman">
+    - **Role**: Basic damage
+    - **Strength**: Easy to deploy and upgrade
+  </Card>
+  <Card title="Basic Tower">
+    - **Role**: Basic defense
+    - **Strength**: Simple to use and effective against early waves
+  </Card>
+  <Card title="Basic Support Unit">
+    - **Role**: Basic support
+    - **Strength**: Provides minor bonuses to other units
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Map} title="Conclusion">
+Building a strong defense in Skibi Defense requires selecting the right units based on their strengths and the game's progression. Use the Tier List as a guide to create a balanced and effective defense strategy.
+</Section>
+
+<FAQ items={[
+  {
+    question: "How do I upgrade my units?",
+    answer: "Upgrades can be purchased using in-game currency. Prioritize units that are most effective in later game stages."
+  },
+  {
+    question: "Which unit is best for solo play?",
+    answer: "The Titan TV Man is highly recommended for solo play due to its high damage output and powerful upgrades."
+  },
+  {
+    question: "Can I change my strategy as the game progresses?",
+    answer: "Absolutely! As you progress, you can adjust your strategy by changing units and upgrading them to better suit your playstyle."
+  }
+]} />

@@ -1,0 +1,111 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Estrategia de Defensa Skibi: La Guía Definitiva de Torre de Defensa",
+  description: "Descubre las mejores estrategias, unidades y consejos para Defensa Skibi, el juego de defensa de torres de Roblox definitivo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/059669/fff?text=Skibi+Defense+Strategy",
+  date: "2026-07-24",
+  author: "Equipo de Wiki de Defensa Skibi"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Defensa Skibi
+- **Mecánica clave**: Juego de defensa de torres
+- **Mejor estrategia**: Despliegue eficiente de unidades y actualizaciones
+- **Consejo crucial**: Prioriza unidades de alto daño para oleadas de jefes
+- **Elección superior**: Titan TV Man para batallas de final de juego
+</Callout>
+
+<Section icon={Map} title="Entendiendo Defensa Skibi">
+  Defensa Skibi es un juego de defensa de torres de Roblox que desafía a los jugadores a desplegar y actualizar unidades para defender su base contra oleadas de enemigos. El juego presenta una variedad de tipos de enemigos, mapas y unidades, cada una con habilidades y actualizaciones únicas.
+</Section>
+
+<Section icon={Swords} title="Resumen de Unidades">
+  <CardGrid cols={3}>
+    <Card title="Unidades Básicas">
+      - Cámara: Unidad de daño de inicio con ataques de objetivo único
+      - Cámara Grande: Unidad rara con mayor salida de daño
+      - Hombre TV Grande: Unidad rara con daño de área y control de grupo de enemigos
+    </Card>
+    <Card title="Unidades Avanzadas">
+      - Cámara Titan: Unidad legendaria con ataques poderosos y alta durabilidad
+      - Hombre TV Titan: Unidad legendaria con habilidades de daño alto y máximas actualizaciones de combate
+    </Card>
+    <Card title="Unidades Especiales">
+      - Boss Skibidi Inodoro: Enemigo de alta HP con poderosas habilidades
+    </Card>
+  </CardGrid>
+</Section>
+
+<Section icon={Trophy} title="Sistema de Actualización">
+  Los jugadores pueden actualizar sus unidades para aumentar el daño, la velocidad de ataque y otros atributos. Las actualizaciones se pueden comprar con las monedas ganadas en el juego.
+</Section>
+
+<Section icon={Target} title="Estrategias de Mapa">
+  <CardGrid cols={3}>
+    <Card title="Mapas de Principiante">
+      - Enfócate en la economía y torres de bajo costo para sobrevivir a oleadas tempranas
+    </Card>
+    <Card title="Mapas de Mediana Juego">
+      - Usa una configuración equilibrada de torres con unidades de efecto de área (AoE) de apoyo
+    </Card>
+    <Card title="Mapas Avanzados">
+      - Emplea torres de objetivo único de alto daño y efectos de aturdimiento contra enemigos de alta HP
+    </Card>
+  </CardGrid>
+</Section>
+
+<Section icon={Shield} title="Tácticas de Oleadas de Jefes">
+  <Steps>
+    <Step num="1" title="Identificar Oleada de Jefe">
+      - Presta atención a la composición de la oleada de enemigos y prepárate para el jefe
+    </Step>
+    <Step num="2" title="Desplegar Unidades de Alto Daño">
+      - Usa unidades con alta salida de daño para derrotar al jefe rápidamente
+    </Step>
+    <Step num="3" title="Usar Efectos de Aturdimiento">
+      - Emplea unidades con efectos de aturdimiento para controlar al jefe y evitar que se escape
+    </Step>
+  </Steps>
+</Section>
+
+<Section icon={Sparkles} title="Consejos Adicionales">
+  <Checklist
+    id="additional-tips"
+    title="Consejos Adicionales para el Éxito:"
+    items={[
+      "Ahorra monedas para actualizaciones importantes",
+      "Gestiona tus recursos con cuidado",
+      "Experimenta con diferentes configuraciones de torres",
+      "Usa unidades especiales en ubicaciones estratégicas",
+      "Mantente alerta y adapta a las oleadas de enemigos cambiantes"
+    ]}
+  />
+</Section>
+
+<Section icon={Map} title="Conclusión">
+  Defensa Skibi es un juego de defensa de torres desafiante y gratificante que ofrece una variedad de estrategias y unidades. Al comprender los mecanismos del juego, dominar el sistema de actualización y emplear estrategias de mapa efectivas, los jugadores pueden convertirse en los maestros definitivos de defensa de torres.
+</Section>
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo nuevas unidades?",
+    answer: "Las nuevas unidades se pueden desbloquear alcanzando ciertos niveles o completando logros específicos."
+  },
+  {
+    question: "¿Dónde puedo encontrar las mejores estrategias para Defensa Skibi?",
+    answer: "El Wiki de Defensa Skibi es una gran fuente para encontrar las mejores estrategias, unidades y consejos para el juego."
+  },
+  {
+    question: "¿Cómo actualizo mis unidades?",
+    answer: "Las unidades se pueden actualizar gastando las monedas ganadas en el juego. Las actualizaciones se pueden comprar en el menú de actualización."
+  }
+]} />

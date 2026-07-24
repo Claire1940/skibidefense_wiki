@@ -8,6 +8,22 @@
     ],
     "guide": [
       {
+        "slug": "boss-rush-crates-skibi-defense",
+        "file": "boss-rush-crates-skibi-defense"
+      },
+      {
+        "slug": "in-skibi-defense",
+        "file": "in-skibi-defense"
+      },
+      {
+        "slug": "jeffery-skibi-defense",
+        "file": "jeffery-skibi-defense"
+      },
+      {
+        "slug": "skibi-defense-a-fight-from-the-past",
+        "file": "skibi-defense-a-fight-from-the-past"
+      },
+      {
         "slug": "skibi-defense-armada-quest",
         "file": "skibi-defense-armada-quest"
       },
@@ -134,6 +150,14 @@
       {
         "slug": "skibi-defense-corrupted-juggernaut",
         "file": "skibi-defense-corrupted-juggernaut"
+      },
+      {
+        "slug": "skibi-defense-error-unit",
+        "file": "skibi-defense-error-unit"
+      },
+      {
+        "slug": "skibi-defense-farm-units",
+        "file": "skibi-defense-farm-units"
       },
       {
         "slug": "skibi-defense-jeffrey",
@@ -234,6 +258,38 @@
     ],
     "guide": [
       {
+        "slug": "boss-rush-crates-skibi-defense",
+        "file": "boss-rush-crates-skibi-defense"
+      },
+      {
+        "slug": "error-skibi-defense",
+        "file": "error-skibi-defense"
+      },
+      {
+        "slug": "gojo-skibi-defense",
+        "file": "gojo-skibi-defense"
+      },
+      {
+        "slug": "in-skibi-defense",
+        "file": "in-skibi-defense"
+      },
+      {
+        "slug": "jeffery-skibi-defense",
+        "file": "jeffery-skibi-defense"
+      },
+      {
+        "slug": "polycephaly-skibidi-defense",
+        "file": "polycephaly-skibidi-defense"
+      },
+      {
+        "slug": "prime-utcm-skibidi-defense",
+        "file": "prime-utcm-skibidi-defense"
+      },
+      {
+        "slug": "skibi-defense-a-fight-from-the-past",
+        "file": "skibi-defense-a-fight-from-the-past"
+      },
+      {
         "slug": "skibi-defense-armada-quest",
         "file": "skibi-defense-armada-quest"
       },
@@ -324,6 +380,14 @@
         "file": "skibi-defense-meta-units"
       },
       {
+        "slug": "skibi-defense-ranking",
+        "file": "skibi-defense-ranking"
+      },
+      {
+        "slug": "skibi-defense-tier-list-2026",
+        "file": "skibi-defense-tier-list-2026"
+      },
+      {
         "slug": "skibi-defense-tier-list",
         "file": "skibi-defense-tier-list"
       },
@@ -358,8 +422,24 @@
         "file": "skibi-defense-corrupted-juggernaut"
       },
       {
+        "slug": "skibi-defense-error-unit",
+        "file": "skibi-defense-error-unit"
+      },
+      {
+        "slug": "skibi-defense-farm-units",
+        "file": "skibi-defense-farm-units"
+      },
+      {
+        "slug": "skibi-defense-incompetent-team",
+        "file": "skibi-defense-incompetent-team"
+      },
+      {
         "slug": "skibi-defense-jeffrey",
         "file": "skibi-defense-jeffrey"
+      },
+      {
+        "slug": "skibi-defense-korean-unit",
+        "file": "skibi-defense-korean-unit"
       },
       {
         "slug": "skibi-defense-master-of-hand",
@@ -456,6 +536,38 @@
     ],
     "guide": [
       {
+        "slug": "boss-rush-crates-skibi-defense",
+        "file": "boss-rush-crates-skibi-defense"
+      },
+      {
+        "slug": "error-skibi-defense",
+        "file": "error-skibi-defense"
+      },
+      {
+        "slug": "gojo-skibi-defense",
+        "file": "gojo-skibi-defense"
+      },
+      {
+        "slug": "in-skibi-defense",
+        "file": "in-skibi-defense"
+      },
+      {
+        "slug": "jeffery-skibi-defense",
+        "file": "jeffery-skibi-defense"
+      },
+      {
+        "slug": "polycephaly-skibidi-defense",
+        "file": "polycephaly-skibidi-defense"
+      },
+      {
+        "slug": "prime-utcm-skibidi-defense",
+        "file": "prime-utcm-skibidi-defense"
+      },
+      {
+        "slug": "skibi-defense-a-fight-from-the-past",
+        "file": "skibi-defense-a-fight-from-the-past"
+      },
+      {
         "slug": "skibi-defense-armada-quest",
         "file": "skibi-defense-armada-quest"
       },
@@ -546,6 +658,14 @@
         "file": "skibi-defense-meta-units"
       },
       {
+        "slug": "skibi-defense-ranking",
+        "file": "skibi-defense-ranking"
+      },
+      {
+        "slug": "skibi-defense-tier-list-2026",
+        "file": "skibi-defense-tier-list-2026"
+      },
+      {
         "slug": "skibi-defense-tier-list",
         "file": "skibi-defense-tier-list"
       },
@@ -580,8 +700,24 @@
         "file": "skibi-defense-corrupted-juggernaut"
       },
       {
+        "slug": "skibi-defense-error-unit",
+        "file": "skibi-defense-error-unit"
+      },
+      {
+        "slug": "skibi-defense-farm-units",
+        "file": "skibi-defense-farm-units"
+      },
+      {
+        "slug": "skibi-defense-incompetent-team",
+        "file": "skibi-defense-incompetent-team"
+      },
+      {
         "slug": "skibi-defense-jeffrey",
         "file": "skibi-defense-jeffrey"
+      },
+      {
+        "slug": "skibi-defense-korean-unit",
+        "file": "skibi-defense-korean-unit"
       },
       {
         "slug": "skibi-defense-master-of-hand",
